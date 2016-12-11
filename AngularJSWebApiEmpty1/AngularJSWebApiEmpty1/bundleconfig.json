@@ -1,0 +1,100 @@
+[
+  {
+    "outputFileName": "css/style-main - Copy.min.css",
+    "inputFiles": [
+      "css/style-main - Copy.css"
+    ]
+  },
+  {
+    "outputFileName": "css/style-main.min.css",
+    "inputFiles": [
+      "css/style-main.css"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "app/services/bsi-services.js",
+    "inputFiles": [
+      "app/services/forms.js",
+      "app/services/localstorageservice.js",
+      "app/services/translateobjects.js"
+    ]
+  },
+  {
+    "outputFileName": "app/directives/bsi-directives.js",
+    "inputFiles": [
+      "app/services/forms.js",
+      "app/services/localstorageservice.js",
+      "app/services/translateobjects.js",
+      "app/directives/staffslider/staffslider.js",
+      "app/directives/quickcontact/quickcontact.js",
+      "app/directives/ngrepeatcomplete/ngrepeatcomplete.js",
+      "app/directives/newsoverview/news.js",
+      "app/directives/masterslider/masterslider.js",
+      "app/directives/facilities/facilities.js",
+      "app/directives/eventschedule/schedule.js",
+      "app/directives/customattributes/customattributes.js"
+    ]
+  },
+  {
+    "outputFileName": "app/bsi-app-controller.js",
+    "inputFiles": [
+      "app/app.js",
+      "app/pages/travelinfo/travelcontroller.js",
+      "app/pages/tickets/ticketscontroller.js",
+      "app/pages/survey/faqcontroller.js",
+      "app/pages/product/productcontroller.js",
+      "app/pages/notfound/notfoundcontroller.js",
+      "app/pages/home/homecontroller.js",
+      "app/pages/facility/facilitycontroller.js",
+      "app/pages/content/contentcontroller.js",
+      "app/pages/contact/contactcontroller.js",
+      "app/pages/article/articlecontroller.js",
+      "app/pages/ambassadors/ambassadorscontroller.js",
+      "app/pages/activity/activitycontroller.js"
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  },
+  {
+    "outputFileName": "css/bsi-style-main.css",
+    "inputFiles": [
+      "css/preloader.css",
+      "css/responsive.css",
+      "css/custom-bootstrap-margin-padding.css",
+      "css/flags16.css",
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "app/cart/jackpot.min.js",
+    "inputFiles": [
+      "app/cart/jackpot.js"
+    ]
+  },
+  {
+    "outputFileName": "app/cart/bsi-cart.js",
+    "inputFiles": [
+      "app/cart/shoppingcart.js",
+      "app/cart/ordercompletecontroller.js",
+      "app/cart/jackpot.js",
+      "app/cart/checkoutcontroller.js",
+      "app/cart/cartcontroller.js"
+    ]
+  },
+  {
+    "outputFileName": "app/cart/bsi-cart.min.min.js",
+    "inputFiles": [
+      "app/cart/bsi-cart.min.js"
+    ]
+  }
+]

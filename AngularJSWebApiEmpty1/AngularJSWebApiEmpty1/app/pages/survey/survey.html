@@ -1,0 +1,84 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <!-- Section Content -->
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white-fa">{{'survey.pagetitle' | translate}} </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="divider parallax layer-overlay overlay-lighter" custattr data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png">
+    <div class="container">
+        <div class="section-content">
+            <form id="frm_Bsi_Srv" name="frmBsiSrv" novalidate valid-submit="sendForm()" ng-show="!formsent">
+                <h3 class="title text-theme-colored mb-10">{{'survey.formtitle' | translate}}</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>{{article[0].q}}</label>
+                            <div class="checkbox" ng-repeat="ans in article[0].a track by $index">
+                                <label>
+                                    <input type="checkbox" name="q1a" 
+                                                    value="{{ans}}" 
+                                                   ng-checked="frmuser.q1.indexOf(ans) > -1"
+                                                   ng-click="togglePrefs(ans,frmuser.q1)"> {{ans}}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>{{article[1].q}}</label>
+                            <div class="checkbox" ng-repeat="ans in article[1].a track by $index">
+                                <label>
+                                    <input type="checkbox" name="q2a"                                                     
+                                            value="{{ans}}" 
+                                                   ng-checked="frmuser.q2.indexOf(ans) > -1"
+                                                   ng-click="togglePrefs(ans,frmuser.q2)"> {{ans}}
+
+                                </label>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label>{{article[2].q}}</label>
+                            <select class="form-control" ng-model="frmuser.q3">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option> {{article[2].a}} 5</option>
+                            </select>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': frmBsiSrv.$submitted && frmBsiSrv.eml.$invalid}">
+                            <label>{{'phrases.email' | translate}}</label>
+                            <input type="email" class="form-control" ng-model="frmuser.email" placeholder="{{'phrases.email' | translate}}" maxlength="100" name="eml" required>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="cbNws" ng-model="subscribed"> {{article[3].q}}
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-theme-colored mt-20">Submit</button>
+                        <p class="alert alert-danger mt-20 text-center" ng-show="frmBsiSrv.$submitted && frmBsiSrv.$invalid">
+                            <i class="fa fa-exclamation-triangle mr-10"></i>{{'phrases.correctform' | translate}}
+                        </p>
+                    </div>
+                </div>
+            </form>
+            <div class="row" ng-show="formsent">
+                <div class="row text-center">
+                    <img src="/images/content/bsi-thumbsup.png" alt="bsi thumbs up!" />
+                    <p class="text-black-222"><strong>{{'tickets.notickets-sent' | translate}}</strong></p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-gray-gainsboro mt-20 text-center">
+                    <a href="/content/privacy" target="_blank"><i class="fa fa-exclamation-circle mr-10"></i>{{'ambassadors.frmoutro' | translate}}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

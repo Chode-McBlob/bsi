@@ -1,0 +1,458 @@
+{
+  "navmenu": {
+    "h": "home",
+    "tick": "kaartjes",
+    "ambs": "ambassadors",
+    "trvl": "reis en verblijf",
+    "ct": "contact",
+    "changelang": "taal wijzigen"
+  },
+  "readmore": "lees meer",
+  "phrases": {
+    "contact": "Contact",
+    "phone": "Telefoon",
+    "email": "Email",
+    "address": "Adres",
+    "tags": "Tags",
+    "copyright": "Copyright &copy 2016 Bratislava Salsa International. Alle rechten voorbehouden."
+  },
+  "home": {
+    "mslider": {
+      "slide1": {
+        "line1": "Bratislava Salsa International",
+        "line2": "Dans nog meer, en rock het!",
+        "line3": "Binnenkort..."
+      },
+      "slide2": {
+        "line1": "Bratislava Salsa International",
+        "line2": "Probeer ons voor een meesterlijk dansweekend!",
+        "line3": "Herfst 2017"
+      },
+      "slide3": {
+        "line1": "Bratislava Salsa International",
+        "line2": "Hou je van Mambo, Cuban, of Kizomba?",
+        "line3": "Tot ziens in Bratislava!"
+      }
+    },
+    "about": {
+      "title": "Over het congres",
+      "subtitle": " - Beleef een wereldklasse gala voor een betaalbare prijs -",
+      "par1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam modi consequuntur maxime voluptates earum illo sunt, veritatis maiores doloribus ut id, nostrum. Temporibus odit quas illum eos dolores itaque facilis omnis beatae saepe eum. Odit labore vel temporibus quasi.",
+      "par2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam modi consequuntur maxime voluptates earum illo sunt, veritatis maiores doloribus ut id, nostrum. Temporibus odit quas illum eos dolores itaque facilis omnis beatae saepe eum. Odit labore vel temporibus quasi.",
+      "par3": "This way module will not load a default language from server once more.",
+      "btn1": "Bekijk programma",
+      "btn2": "Koop kaartjes!"
+    },
+   "offer": {
+      "title": "Doe nu al mee!",
+      "mapping": "events.1;events.2;events.3",
+      "events": {
+        "1": {
+          "id": "facility/your-music",
+          "thumb": "https://placehold.it/500x700",
+          "title": "Vraag een nummer aan",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt"
+        },
+        "2": {
+          "id": "ambassadors",
+          "thumb": "https://placehold.it/500x700",
+          "title": "Word ambassador",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt"
+        },
+        "3": {
+          "id": "facility/about-shows",
+          "thumb": "https://placehold.it/500x700",
+          "title": "Shows",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt"
+        }
+      }
+    },
+    "newsoverview": {
+      "title": "Nieuws",
+      "mapping": "events.1;events.2;events.3",
+      "events": {
+        "1": {
+          "id": "osbanis-confirmed",
+          "thumb": "images/castcrew/osbanis_anneta.jpg",
+          "title": "Osbanis bevestigd",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+          "authorthumb": "images/castcrew/osbanis_anneta_thumb.jpg",
+          "articledate": "10 OCT 2016"
+        },
+        "2": {
+          "id": "aronette-styling-background",
+          "thumb": "https://placehold.it/250x250",
+          "title": "Styling met Aronette",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+          "authorthumb": "https://placehold.it/50x50",
+          "articledate": "10 OCT 2016"
+        },
+        "3": {
+          "id": "about-marsiesmambo",
+          "thumb": "https://placehold.it/250x250",
+          "title": "Marsies Mambo de On2 Sergeants",
+          "summary": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+          "authorthumb": "https://placehold.it/50x50",
+          "articledate": "10 OCT 2016"
+        }
+      }
+    },
+    "footerlinks": {
+      "title": "Quick links",
+      "mapping": "tab1,2",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "link": "Privacy policy",
+              "url": "/content/privacy"
+            },
+            "2": {
+              "link": "Disclaimer",
+              "url": "/content/disclaimer"
+            }
+          }
+        }
+      }
+    },
+    "footersocial": {
+      "intro": "Bratislava Salsa International is een ambitieus opkomend salsa congres",
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "url": "https://www.facebook.com",
+              "icon": "fa fa-facebook"
+            },
+            "2": {
+              "url": "https://www.twitter.com",
+              "icon": "fa fa-twitter"
+            },
+            "3": {
+              "url": "http://www.youtube.com",
+              "icon": "fa fa-youtube"
+            }
+          }
+        }
+      }
+    },
+     "footertags": {
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "url": "/facility/la-fiesta",
+              "tag": "venue"
+            },
+            "2": {
+              "url": "/activity/about-parties",
+              "tag": "party"
+            },
+            "3": {
+              "url": "/tickets",
+              "tag": "Ticket"
+            }
+          }
+        }
+      }
+    }
+  },
+  "articles": {
+    "osbanis-confirmed": {
+      "id": "osbanis-confirmed",
+      "title": "Osbanis Bevestigd",
+      "headline": "This is Article",
+      "smry": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "smrytwo": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    },
+    "aronette-styling-background": {
+      "id": "aronette-styling-background",
+      "title": "Styling met Aronette",
+      "headline": "This is Article",
+      "smry": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "smryb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    },
+    "about-marsiesmambo": {
+      "id": "about-marsiesmambo",
+      "title": "Marsies Mambo de On2 Sergeants",
+      "headline": "This is Article",
+      "smry": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "smryb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    },
+    "links": {
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "link": "Tickets",
+              "url": "/tickets"
+            },
+            "2": {
+              "link": "Privacy policy",
+              "url": "/content/privacy"
+            },
+            "3": {
+              "link": "Disclaimer",
+              "url": "/content/disclaimer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "activity": {
+    "workshop-kizomba-shaka-khan": {
+      "bigpic": "https://placehold.it/730x400",
+      "bigpicalt": "alttext for big pic",
+      "title": "Workshop Kizomba Shaka Khan!",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb2": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    },
+    "workshop-cuban-osbanis": {
+      "bigpic": "images/castcrew/osbanis_anneta.jpg",
+      "bigpicalt": "alttext for big pic",
+      "title": "Workshop Cuban by Osbanis!",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb2": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    },
+    "workshop-ladies-aro": {
+      "bigpic": "https://placehold.it/730x400",
+      "bigpicalt": "alttext for big pic",
+      "title": "Workshop Ladies styling Aro!",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parquote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "parquoter": "Someone famous in Source Title",
+      "parthumb": "https://placehold.it/370x315",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb2": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parbthumb": "https://placehold.it/370x315"
+    }
+  },
+  "facility": {
+    "about-shows": {
+      "bigpic": "https://placehold.it/400x400",
+      "bigpicalt": "De Shows!",
+      "title": "Showtime!",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "adline": "Priezovska 345",
+      "phone": "+420235845327",
+      "email": "info@lafiesta.sk",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    },
+    "about-parties": {
+      "bigpic": "https://placehold.it/400x400",
+      "bigpicalt": "4 super parties",
+      "title": "4 super parties",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "adline": "Priezovska 345",
+      "phone": "+420235845327",
+      "email": "info@lafiesta.sk",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    },
+    "la-fiesta": {
+      "bigpic": "https://placehold.it/400x400",
+      "bigpicalt": "Latin club La Fiesta",
+      "title": "Latin club La Fiesta",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+      "par": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "parb": "Lorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa voluptLorem ipsum dolor sit amet, consec tetur adipis icing elit culpa volupt",
+      "adline": "Priezovska 345",
+      "city": "Bratislava",
+      "phone": "+420235845327",
+      "email": "info@lafiesta.sk",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    }
+  },
+    "schedule": {
+      "mapping": "tab1,4;tab2,4;tab3,4",
+      "title": "Programma",
+      "readmorebtn": "lees meer",
+      "tabs": {
+        "tab1": {
+          "title": "DAY 1",
+          "date": "15 OCT 2017",
+          "events": {
+            "1": {
+              "ctid": "workshop-on-2-marlon",
+              "cttitle": "Workshop on 2",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Marlon",
+              "ctcompany": "Directeur, Marsies Mambo",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "2": {
+              "ctkey": "2",
+              "ctid": "workshop-cuban-osbanis",
+              "cttitle": "Workshop Cuban",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Osbanis",
+              "ctcompany": "Director, Deakocan",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "images/castcrew/osbanis_anneta_thumb.jpg"
+            },
+            "3": {
+              "ctkey": "3",
+              "ctid": "workshop-kizomba-shaka-khan",
+              "cttitle": "Workshop Kizomba",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Shaka Khan",
+              "ctcompany": "Director, KzA",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "4": {
+              "ctid": "workshop-bachata-lady-b",
+              "cttitle": "Workshop Bachata",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Lady B",
+              "ctcompany": "Director, Senswa",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "https://placehold.it/75x75"
+            }
+          }
+        },
+        "tab2": {
+          "title": "DAY 2",
+          "date": "16 OCT 2017",
+          "events": {
+            "1": {
+              "ctid": "workshop-ladies-aro",
+              "cttitle": "Workshop ladies styling",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Aronette",
+              "ctcompany": "Aronette.nl",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "2": {
+              "ctkey": "2",
+              "ctid": "workshop-cuban-osbanis",
+              "cttitle": "Workshop Cuban",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Osbanis",
+              "ctcompany": "Director, Deakocan",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "3": {
+              "ctkey": "3",
+              "ctid": "workshop-kizomba-shaka-khan",
+              "cttitle": "Workshop Kizomba",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Shaka Khan",
+              "ctcompany": "Director, KzA",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "4": {
+              "ctid": "workshop-bachata-lady-b",
+              "cttitle": "Workshop Bachata",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Lady B",
+              "ctcompany": "Director, Senswa",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "https://placehold.it/75x75"
+            }
+          }
+        },
+        "tab3": {
+          "title": "DAY3",
+          "date": "17 OCT 2017",
+          "events": {
+            "1": {
+              "ctid": "workshop-on-1",
+              "cttitle": "Advanced on 1",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Jose Diaz",
+              "ctcompany": "stuff",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "2": {
+              "ctkey": "2",
+              "ctid": "workshop-cuban-osbanis",
+              "cttitle": "Workshop Cuban",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Osbanis",
+              "ctcompany": "Director, Deakocan",
+              "cttime": "9AM - 11AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "3": {
+              "ctkey": "3",
+              "ctid": "workshop-kizomba-shaka-khan",
+              "cttitle": "Workshop Kizomba",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Shaka Khan",
+              "ctcompany": "Director, KzA",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 1",
+              "ctthumb": "https://placehold.it/75x75"
+            },
+            "4": {
+              "ctid": "workshop-bachata-lady-b",
+              "cttitle": "Workshop Bachata",
+              "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+              "ctartist": "Lady B",
+              "ctcompany": "Director, Senswa",
+              "cttime": "11AM - 12AM",
+              "ctlocation": "La Fiesta - Area 2",
+              "ctthumb": "https://placehold.it/75x75"
+            }
+          }
+
+
+        }
+      }
+    }
+ 
+}

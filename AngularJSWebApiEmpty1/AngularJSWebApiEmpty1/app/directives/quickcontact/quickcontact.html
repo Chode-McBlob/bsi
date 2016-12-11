@@ -1,0 +1,28 @@
+﻿<div class="widget dark">
+    <h6 class="widget-title line-bottom">{{'phrases.quickcontact' | translate}}</h6>
+    <div ng-show="formsent">{{'home.frmsuccess'| translate}}</div>
+    <form id="frmQQ" name="frmQQ" class="quick-contact-form" novalidate valid-submit="sendForm()" ng-show="!formsent">
+        <div class="form-group">
+            <input name="eml" class="form-control" type="email" required maxlength="80"
+                   placeholder="{{'phrases.email' | translate}}" ng-model="eml">
+            <i class="fa fa-exclamation-triangle" ng-show="frmQQ.$submitted && frmQQ.eml.$invalid"></i>
+        </div>
+        <div class="form-group">
+            <small ng-class="{'text-white' : msg.length > (charlimit-10) }" ng-show="msg.length > 10">{{charlimit - msg.length}} {{'phrases.charsleft' | translate}}</small>
+            <textarea name="msg" class="form-control" required 
+                      placeholder="{{'phrases.urmsg' | translate}}" 
+                      rows="3" ng-model="msg"
+                      minlength="10" 
+                      charlimit="{{charlimit}}"
+                      ></textarea>
+            <i class="fa fa-exclamation-triangle" ng-show="frmQQ.$submitted && frmQQ.msg.$invalid"></i>
+        </div>
+        <div class="form-group">
+            <div vc-recaptcha theme="dark" key="recaptchakey" on-create="setWidgetId(widgetId)" on-success="setCaptchaResponse(response)"></div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default btn-flat btn-xs btn-transparent text-gray pt-5 pb-5">{{'phrases.sendmsg' | translate}}</button>
+        </div>
+    </form>
+
+</div>

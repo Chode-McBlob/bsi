@@ -1,0 +1,1291 @@
+{
+  "navmenu": {
+    "h": "Home",
+    "tick": "Tickets",
+    "ambs": "Botschafter",
+    "trvl": "Anreise",
+    "ct": "Contact",
+    "changelang": "Sprache ausw‰hlen"
+  },
+  "readmore": "Weiterf¸hrende Information",
+  "phrases": {
+    "mr": "Mr",
+    "ms": "Ms / Mrs",
+    "name": "Name",
+    "fname": "First name",
+    "lname": "Last name",
+    "zip": "Zip / postal code",
+    "city": "City",
+    "country": "Country",
+    "select-country": "Select country",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "tags": "Tags",
+    "checkout": "Checkout",
+    "copyright": "Copyright &copy 2016 Bratislava Salsa International. All Rights Reserved.",
+    "addtocart": "Add to cart",
+    "notfound": "Page not found",
+    "notfounddesc": "The page you were looking for cound not be found",
+    "returnhome": "Return Home",
+    "links": "Links",
+    "urmsg": "Your message",
+    "sendmsg": "Send message",
+    "pleasewait": "Please wait...",
+    "quickcontact": "Quick contact",
+    "correctform": "Please correct the marked fields!",
+    "charsleft": "characters left",
+    "venue": "Venue and location",
+    "lobby": "Lobby",
+    "area1": "Area 1",
+    "area2": "Area 2",
+    "area3": "Area 3",
+    "room1": "Havana Room",
+    "room2": "Luanda Room",
+    "room3": "Brazil Room",
+    "facgood": "Facilities and goodies"
+  },
+  "home": {
+    "mslider": {
+      "slide1": {
+        "line1": "Bratislava Salsa International",
+        "line2": "13, 14, 15 OKTOBER 2017",
+        "line3": "Bratislava, Slovakia"
+      },
+      "slide2": {
+        "line1": "Bratislava Salsa International",
+        "line2": "Komm zu uns, um mit uns ein einzigartiges Tanzerlebnis f¸r ein Wochenende zu genieﬂen!",
+        "line3": ""
+      }
+    },
+    "about": {
+      "title": "‹ber den Kongress",
+      "subtitle": "Hole dir von dieser Dauerveranstaltung einen Vorgeschmack!",
+      "par1": "Die Grundidee ist ganz einfach: Wir haben s‰mtliche Vorbereitungen getroffen, um dir des N‰chtens die beste Gala-Tanzerfahrung zu bieten und die Party non-stop am Laufen zu halten! Das bedeutet, dass es keine Sperrstunde gibt. So wirst du tags¸ber in wenigstens einem Tanzbereich deiner Tanzleidenschaft nachgehen kˆnnen.",
+      "par2": "Wenn du bereits an einem Salsakongress teilgenommen hast, gehˆrst du mˆglicherweise auch zu jenen Menschen, die so lange wie mˆglich tanzen mˆchten. Und genau das bieten wir an. Nat¸rlich gibt es auch die Mˆglichkeit an Workshops teilzunehmen. Daf¸r haben wir auch eine Reihe an K¸nstlern eingeladen, um uns auszuhelfen :)",
+      "par3": "",
+      "btn1": "See event schedule",
+      "btn2": "Get your passes!"
+    },
+    "offer": {
+      "title": "Your turn :)",
+      "mapping": "events.1;events.2;events.3",
+      "events": {
+        "1": {
+          "id": "survey/rumberos",
+          "thumb": "images/content/music-sm.jpg",
+          "title": "You know best",
+          "summary": "We know salsa, parties and workshops. Tell us what YOU want."
+        },
+        "2": {
+          "id": "ambassadors",
+          "thumb": "images/content/bsi-ambassadorprogram-square.jpg",
+          "title": "Become an ambassador",
+          "summary": "Keep it tight. Provide your friends with a discount."
+        },
+        "3": {
+          "id": "tickets",
+          "thumb": "images/content/bsi-dancers.jpg",
+          "title": "Get your passes",
+          "summary": "Secure your part of the action now! Click here to see the ticket plans."
+        }
+      }
+    },
+    "newsoverview": {
+      "title": "Besetzung",
+      "mapping": "events.1;events.2;events.3;events.4;events.5;events.6;events.7;events.8;events.9;events.10",
+      "events": {
+        "1": {
+          "id": "mc-olu-olu",
+          "thumb": "images/castcrew/home/bsi_olu_olu.jpg",
+          "title": "Olu Olu",
+          "summary": "Der Gastgeber dieser Veranstaltung!! Manche behaupten, dass, so er nicht dabei ist, es auch kein richtiger Kongress sein kann.",
+          "authorthumb": "images/castcrew/olu_olu_thumb.jpg",
+          "articledate": "MC",
+          "nat": "gb",
+          "readmore": "1"
+        },
+        "2": {
+          "id": "jose-diaz",
+          "thumb": "images/castcrew/home/bsi_jose_nerea.jpg",
+          "title": "Jose Diaz and Nerea Perez",
+          "summary": "Direkt aus einer der Mambo-Hochburgen Europas - Mailand - kommend, benˆtigt dieses Paar eine kurze VorstellungÖ",
+          "authorthumb": "images/castcrew/cast_jose_diaz_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "it",
+          "readmore": "0"
+        },
+        "3": {
+          "id": "marsiesmambo",
+          "thumb": "images/castcrew/home/bsi_marlon_borkulo.jpg",
+          "title": "Mr Marsies Mambo",
+          "summary": "Bist du an NY ON2 interessiert? In diesen von Marlon Borkulo alias Marsies Mambo ausgerichteten Workshops garantieren wir dir, dass du hier deine Tanzf‰higkeiten verbesseren wirst.",
+          "authorthumb": "images/castcrew/marlon_borkulo_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "nl",
+          "readmore": "1"
+        },
+        "4": {
+          "id": "paul-and-eveline",
+          "thumb": "images/castcrew/home/bsi_paul_eveline.jpg",
+          "title": "Paul and Eveline",
+          "summary": "Das ist Tanz in seiner pursten Form. Dieses Tanzpaar vereint eine Vielzahl  an Stylings auf der Tanzfl‰che, beginnend von Salsa ¸ber Kizomba bis hin zu Hip Hop.",
+          "authorthumb": "images/castcrew/paul_eveline_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "nl",
+          "readmore": "1"
+        },
+        "5": {
+          "id": "dora-egressy",
+          "thumb": "images/castcrew/home/bsi_cast_dora_egressy.jpg",
+          "title": "Dora Egressy",
+          "summary": "Sie ist zwar zart, besitzt aber groﬂe Durchschlagskraft wenn es um Cuban Style, Street Dance oder Ladies Stylings geht.",
+          "authorthumb": "images/castcrew/cast_dora_egressy_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "hu",
+          "readmore": "0"
+        },
+        "6": {
+          "id": "anja-lohrum",
+          "thumb": "images/castcrew/home/bsi_cast_anja_lohrum.jpg",
+          "title": "Anja Lohrum",
+          "summary": "Sie ist eine passionierte Universalt‰nzerin, sowohl auf der Tanzfl‰che wie auch im Unterricht. Einen Tanz mit ihr wirst du zweifelsohne nicht mehr vergessen :)",
+          "authorthumb": "images/castcrew/cast_anja_lohrum_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "es",
+          "readmore": "0"
+        },
+        "7": {
+          "id": "jj-pachanga",
+          "thumb": "images/castcrew/home/bsi_cast_jj-pachanga.jpg",
+          "title": "JJ Pachanga",
+          "summary": "Ein schwungvoller Stil gepaart mit einem aufwendigen und effektvollen Showauftritt. Verpasse auf keinen Fall seine Footwork-Kurse ...",
+          "authorthumb": "images/castcrew/cast_jj-pachanga_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "be",
+          "readmore": "0"
+        },
+        "8": {
+          "id": "jean-paul",
+          "thumb": "images/castcrew/home/bsi_cast_jean_paul.jpg",
+          "title": "Jean Paul",
+          "summary": "Jean-Paul ist ein energiegeladener Salsat‰nzer, der sich seit mehr als einem Jahrzehnt dem Tanzen widmet. Er ist bekannt f¸r seine positive Energie und seine Tanzleidenschaft, dies auch im Unterricht.",
+          "authorthumb": "images/castcrew/cast_jean_paul_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "de",
+          "readmore": "1"
+        },
+        "9": {
+          "id": "sisa-marian",
+          "thumb": "images/castcrew/home/bsi_cast_sisa_marian.jpg",
+          "title": "Sisa and Marian",
+          "summary": "Salsa oder Kizomba? Das bekommst du bei Ihnen.",
+          "authorthumb": "images/castcrew/cast_sisa_marian_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "sk"
+        },
+        "10": {
+          "id": "mario-laury",
+          "thumb": "images/castcrew/home/bsi_cast_mario_laury.jpg",
+          "title": "M√°rio Jord√£o et Laury Esmeralda.",
+          "summary": "Sie bringen dir Kizomba nach angolanischer Tradition n‰her. Dies ist eine Vision eines afrikanischen hemmungslosen und bes‰nftigenden Tanzes.",
+          "authorthumb": "images/castcrew/cast_mario_laury_thumb.jpg",
+          "articledate": "Artist",
+          "nat": "ao,fr",
+          "readmore": "1"
+        }
+      }
+    },
+   "djs": {
+      "title": "DJ's",
+      "mapping": "events.1;events.2;events.3;events.4;events.5;events.6;events.7;events.8;events.9;events.10",
+      "events": {
+        "1": {
+          "id": "dj-jarzino",
+          "thumb": "images/castcrew/home/bsi_dj_jarzino.jpg",
+          "title": "DJ Jarzino",
+          "summary": "DJ Jarzino bringt eine Vielzahl von lateinischen Kl‰ngen mit, die dich zum Verweilen einladen.",
+          "authorthumb": "images/castcrew/dj_jarzino_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "nl"
+        },
+        "2": {
+          "id": "dj-lindt",
+          "thumb": "images/castcrew/home/bsi_dj_lindt.jpg",
+          "title": "DJ Lindt",
+          "summary": "DJ Lindt wird dir eine feine Mischung aus Semba, Tarraxinha und etwas Ghetto Zouk servieren :)",
+          "authorthumb": "images/castcrew/dj_lindt_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "nl"
+        },
+        "3": {
+          "id": "dj-mambonito",
+          "thumb": "images/castcrew/home/bsi_dj_mambonito.jpg",
+          "title": "DJ Mambonito",
+          "summary": "Mambonito will make sure all the necessary Mambo and Latin Jazz will get out there to get your groove on.",
+          "authorthumb": "images/castcrew/dj_mambonito_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "de"
+        },
+        "4": {
+          "id": "dj-maya",
+          "thumb": "images/castcrew/home/bsi_dj_maya.jpg",
+          "title": "DJ Maya",
+          "summary": "With DJ Maya all the salseros will go home with a satisfied feeling. No one gets left out when he plays",
+          "authorthumb": "images/castcrew/dj_maya_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "hu",
+          "readmore": "1"
+        },
+        "5": {
+          "id": "dj-donnie",
+          "thumb": "images/castcrew/home/bsi_dj_donnie.jpg",
+          "title": "DJ Donnie",
+          "summary": "You can count on DJ Donnie to bring the mambo if he is asked to do so.",
+          "authorthumb": "images/castcrew/dj_donnie_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "nl",
+          "readmore": "1"
+        },
+        "6": {
+          "id": "dj-freelancer",
+          "thumb": "images/castcrew/home/bsi_dj_freelancer.jpg",
+          "title": "DJ Freelancer",
+          "summary": "Music addict who firmly believes in playing for dancers first!",
+          "authorthumb": "images/castcrew/dj_freelancer_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "hu",
+          "readmore": "1"
+        },
+        "7": {
+          "id": "dj-csedi",
+          "thumb": "images/castcrew/home/bsi_dj_csedi.jpg",
+          "title": "DJ Csedi",
+          "summary": "DJ Csedi is one of the most well known name in the Hungarian salsa community. A good Cuban room hardly exists without him :)",
+          "authorthumb": "images/castcrew/dj_csedi_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "hu"
+        },
+        "8": {
+          "id": "dj-jaro",
+          "thumb": "images/castcrew/home/bsi_dj_jaro.jpg",
+          "title": "DJ Jaro",
+          "summary": "Frequently DJing and master of Rueda. Jaro is a member of the international 'That's what she said'.",
+          "authorthumb": "images/castcrew/dj_jaro_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "sk",
+          "readmore": "1"
+        },
+        "9": {
+          "id": "dj-caly",
+          "thumb": "images/castcrew/home/bsi_dj_caly.jpg",
+          "title": "DJ Caly",
+          "summary": "Well known Cuban DJ in Slovakia. His mix is one of the most wanted on the Cuban floor.",
+          "authorthumb": "images/castcrew/dj_caly_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "sk"
+        },
+        "10": {
+          "id": "dj-supaman",
+          "thumb": "images/castcrew/home/bsi_dj_supaman.jpg",
+          "title": "DJ Supaman",
+          "summary": "Real kizomba addict. DJ-ing all over europe, he is also organizer of Bratislava's - TOMA TOMA festival!",
+          "authorthumb": "images/castcrew/dj_supaman_thumb.jpg",
+          "articledate": "DJ",
+          "nat": "pt"
+        }
+      }
+    },
+    "footerlinks": {
+      "title": "Quick links",
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "link": "Privacy policy",
+              "url": "/content/privacy"
+            },
+            "2": {
+              "link": "Disclaimer",
+              "url": "/content/disclaimer"
+            },
+            "3": {
+              "link": "Contact",
+              "url": "/contact"
+            }
+          }
+        }
+      }
+    },
+    "footersocial": {
+      "intro": "Bratislava Salsa International - A world class salsa congress dedicated to make you dance!",
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "url": "https://www.facebook.com",
+              "icon": "fa fa-facebook"
+            },
+            "2": {
+              "url": "https://www.twitter.com",
+              "icon": "fa fa-twitter"
+            },
+            "3": {
+              "url": "https://www.youtube.com",
+              "icon": "fa fa-youtube"
+            }
+          }
+        }
+      }
+    },
+    "footertags": {
+      "mapping": "tab1,6",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "url": "/facility/la-fiesta",
+              "tag": "venue"
+            },
+            "2": {
+              "url": "/facility/about-parties",
+              "tag": "party"
+            },
+            "3": {
+              "url": "/tickets",
+              "tag": "party pass"
+            },
+            "4": {
+              "url": "/ambassadors",
+              "tag": "promotion"
+            },
+            "5": {
+              "url": "/travelinfo",
+              "tag": "hotel"
+            },
+            "6": {
+              "url": "/facility/about-parties",
+              "tag": "philosophy"
+            }
+          }
+        }
+      }
+    },
+    "frmsuccess": "Thank you for contacting us. We will get back to you as soon as possible.",
+    "registerhere": "Register here, upon entering the venue",
+    "lobby": "Lobby / Reception"
+  },
+  "articles": {
+    "mc-olu-olu": {
+      "id": "mc-olu-olu",
+      "title": "Host of the event: the famous Olu Olu!",
+      "headline": "Olu Olu MC",
+      "smry": "Some say he can be at two places at the same time. Some say he sets the sole quality European Salsa Congress standard",
+      "smryb": "All we know, is that he will be our event host at SBI",
+      "par": "Olu Olu may the most iconic presence at any given congress. If you walk past a crowded hotel lobby with lots of people dressed for Gala, and Olu is amongst them, this is a salsa congress. No doubt.",
+      "parquote": "What should we play in the Mambo room...?s",
+      "parquoter": "Olu lounge makes a better dance climate (for the dancers)",
+      "parthumb": "images/castcrew/olu2.jpg",
+      "parb": "You may know him from a congress somewhere in Europe hosting the Olu Lounge often on a sunday afternoon. The Olu Lounge is his mission to make the world a better place for dancers :) We asked Olu to help guide you through all the commotion and he agreed to pacify the waves of excitement with his soothing voice :)",
+      "parbthumb": "images/castcrew/olu3.jpg",
+      "nat": "gb"
+    },
+    "marsiesmambo": {
+      "id": "marsiesmambo",
+      "title": "Mr Marsies Mambo the On2 Sergeant",
+      "headline": "Marlon Borkulo",
+      "smry": "Ready? Set? Sweat! After that we shine",
+      "smryb": "",
+      "par": "",
+      "parquote": "We will repeat it 10 more times",
+      "parquoter": "Marlon Borkulo",
+      "parthumb": "images/castcrew/marlon_borkulo.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/marsiesmambo.jpg",
+      "nat": "nl"
+    },
+    "dj-jarzino": {
+      "id": "dj-jarzino",
+      "title": "True love for music",
+      "headline": "DJ Jarzino",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "",
+      "parquoter": "Eduardo Avila",
+      "parthumb": "images/castcrew/dj_jarzino2.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_jarzino.jpg",
+      "nat": "nl"
+    },
+    "dj-lindt": {
+      "id": "dj-lindt",
+      "title": "Kizomba's most wanted from the Netherlands",
+      "headline": "DJ Lindt",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "",
+      "parquoter": "Henk Lindt",
+      "parthumb": "images/castcrew/dj_lindt2.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_lindt3.jpg",
+      "nat": "nl"
+    },
+    "paul-and-eveline": {
+      "id": "paul-and-eveline",
+      "title": "Salsa Fusion",
+      "headline": "AfriSur",
+      "smry": "Express Yourself! That is what AfriSur Dance Company is about.",
+      "smryb": "Feelin how I'm feelin.",
+      "par": "For us, it means that dance is fun, a release, a moment of pure flow and a form of art. And we LOVE to create this art! Using a broad foundation in salsa, mambo, cha cha and hiphop and under the inspiring direction of Paul 'Mr Smooth' Baarn, we explore and enjoy dance: in performance, teaching and social dancing in every shape and form.",
+      "parquote": "Feel the Salsamotion",
+      "parquoter": "Paul Baarn",
+      "parthumb": "images/castcrew/paul_eveline.jpg",
+      "parb": "This means that if you see AfriSur Dance Company somewhere, we will most likely be dancing (or teaching), we will most likely be smiling and we will always be open to what the dance can bring. Whether those are our cool and funky shows with strong body movement or musicality... or maybe you'll meet us in a class or workshop on styling, flow & play or smooth musicality... or maybe on the floor during a cool song! Our focus will always be on the ability to express yourself and to create something fun and gorgeous every time you dance. Wherever and whenever it is that you will meet AfriSur Dance Company, we look forward to bringing you along in our mission to Express Yourself!",
+      "parbthumb": "images/castcrew/paul_eveline2.jpg",
+      "nat": "nl"
+    },
+    "dj-mambonito": {
+      "id": "dj-mambonito",
+      "title": "Mambo and Latin jazz for dinner",
+      "headline": "DJ Mambonito",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "Someone killed all the descargas",
+      "parquoter": "Ernesto Machado",
+      "parthumb": "images/castcrew/dj_mambonito.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_mambonito2.jpg",
+      "nat": "de"
+    },
+    "dj-maya": {
+      "id": "dj-maya",
+      "title": "Salsa Dura with mambo",
+      "headline": "DJ Maya",
+      "smry": "Budapest's finest",
+      "smryb": "Easy going and steady sound. Thats DJ Maya",
+      "par": "It doesn't matter if you only have basic salsa knowledge, or if you are a die-hard salsero sporting tricks and dips. If you have that mambo heart, you will not get a second of boredom with his set. Just step in the room and breathe it in.",
+      "parquote": "Step away from the cables",
+      "parquoter": "Magyar Janos",
+      "parthumb": "images/castcrew/dj_maya.jpg",
+      "parb": "DJ Maya comes fully equipped. If he decides to go old skool, he will break out the vinyls, but he also sports a dj controller / laptop setup, complemented by a plethora of professional sound equipment to pump up the party.",
+      "parbthumb": "images/castcrew/dj_maya2.jpg",
+      "nat": "hu"
+    },
+    "dj-donnie": {
+      "id": "dj-donnie",
+      "title": "Lets get it started!",
+      "headline": "DJ Donnie",
+      "smry": "Mambo for everyone - from Rotterdam",
+      "smryb": "Make sure you entertain the dancers",
+      "par": "You can count on DJ Donnie to bring the mambo if he is asked to do so. He is an expert in walking the path between fulfilling the musical mission while keeping the dancers entertained.",
+      "parquote": "Give the dancers all the salsa they desire",
+      "parquoter": "Donnie Moerlie",
+      "parthumb": "images/castcrew/dj_donnie.jpg",
+      "parb": "Before he was a DJ, Donnie was (and still is) a dancer. He is well versed in your favorite salsa styles, and always manages to surprise with a few instant hits which takes dancing to the next level.",
+      "parbthumb": "images/castcrew/dj_donnie3.jpg",
+      "nat": "nl"
+    },
+    "dj-freelancer": {
+      "id": "dj-freelancer",
+      "title": "Musically addicted!",
+      "headline": "DJ Freelancer",
+      "smry": "",
+      "smryb": "",
+      "par": "I am really addicted to good music independently from the genre, I believe first of all a DJ must play for the dancers, so when I play music I always check if I'd love to hear that on the dance floor.",
+      "parquote": "Can't touch this",
+      "parquoter": "Kriszti√°n Sz≈±cs",
+      "parthumb": "images/castcrew/dj_freelancer.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_freelancer3.jpg",
+      "nat": "hu"
+    },
+    "dora-egressy": {
+      "id": "dora-egressy",
+      "title": "",
+      "headline": "Dora Egressy",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "",
+      "parquoter": "Dora Egressy",
+      "parthumb": "images/castcrew/cast_dora_egressy.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/cast_dora_egressy2.jpg",
+      "nat": "hu"
+    },
+    "anja-lohrum": {
+      "id": "anja-lohrum",
+      "title": "",
+      "headline": "Anja Lohrum Romeu",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "",
+      "parquoter": "Anja Lohrum Romeu",
+      "parthumb": "images/castcrew/cast_anja_lohrum.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/cast_anja_lohrum2.jpg",
+      "nat": "es"
+    },
+    "jj-pachanga": {
+      "id": "jj-pachanga",
+      "title": "",
+      "headline": "JJ Pachanga",
+      "smry": "",
+      "smryb": "",
+      "par": "",
+      "parquote": "",
+      "parquoter": "JJ Pachanga",
+      "parthumb": "images/castcrew/cast_jj_pachanga.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/cast_jj_pachanga2.jpg",
+      "nat": "be"
+    },
+    "jean-paul": {
+      "id": "jean-paul",
+      "title": "Positive energy and passion",
+      "headline": "Jean Paul",
+      "smry": "He strives for a healthy mixture between technique and fun.",
+      "smryb": "",
+      "par": "Inspired by his Cuban, Antillean and Surinam heritage and hearing son, son montuno, bolero, mambo and the modern name 'Salsa' music at home  he developed a passion for the music as a child. But it wasn't until 2005 that he started dancing salsa. Since then he performed many times with several groups across Europe on the biggest stages salsa knows. After 4 years of performing he took a break to reinvent his passion and to educate himself in the beautiful artform we call Salsa.",
+      "parquote": "Basic knowledge about our own body and mind and makes us strong",
+      "parquoter": "Jean Paul",
+      "parthumb": "images/castcrew/cast_jean_paul.jpg",
+      "parb": "Floraci√≥n(Blossom), the dance company  which resides in Germany believes that dance and music brings people together beyond borders. They believe that dance teaches us basic knowledge about our own body and mind and makes us strong. There aim is to pass on development and fun to you, regardless of level or age, so that you can blossom like a beautiful flower and flourish in full force.",
+      "parbthumb": "images/castcrew/cast_jean_paul2.jpg",
+      "nat": "de"
+    },
+    "mario-laury": {
+      "id": "mario-laury",
+      "title": "",
+      "headline": "Mario and Laury",
+      "smry": "This is what a TV program from Angola had to say about these two Kizomba champions: They came from France and Slovenia and dance our Semba and Kizomba with the mastery of the great performers.",
+      "smryb": "",
+      "par": "",
+      "parquote": "No art is inaccessible, ... for he who has the means to learn",
+      "parquoter": "Laury Esmeralda",
+      "parthumb": "images/castcrew/cast_mario_laury.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/cast_mario_laury2.jpg",
+      "nat": "ao,fr"
+    },
+    "dj-supaman": {
+      "id": "dj-supaman",
+      "title": "DJ Supaman",
+      "headline": "√Ålvaro Gustavo is: DJ Supaman!",
+      "smry": "",
+      "smryb": "",
+      "par": "Catch him if you prefer classics or real deep and dangerous tarraxinha. By the way, he is also an organizer of one of those great and regular festivals in Bratislava - TOMA TOMA",
+      "parquote": "A long long time ago...",
+      "parquoter": "√Ålvaro Gustavo",
+      "parthumb": "images/castcrew/dj_supaman.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_supaman2.jpg",
+      "nat": "pt"
+    },
+    "dj-jaro": {
+      "id": "dj-jaro",
+      "title": "One of Bratislava's pioneering rueda teachers. DJ and Fanatic!",
+      "headline": "DJ Jaro",
+      "smry": "Jaro has been DJ-ing and teaching in various locations, Starting out locally at Nor's Rueda Congress,  Balaton (Hungary), leading out to Oslo (Norway) and Roskilde, Denmark, and all the way to Boston Rueda festival (US)",
+      "smryb": "",
+      "par": "Jaro has a wonderful energy in his classes and loves to dance to son, salsaton and timba. He got an eye for details and offers something extra for both leaders and followers. He teaches his art in in Bratislava covering both partner work and rueda de casino at all levels.",
+      "parquote": "Gotta stop tucking in my shirt...",
+      "parquoter": "Jaroslav Hluch",
+      "parthumb": "images/castcrew/dj_jaro.jpg",
+      "parb": "",
+      "parbthumb": "images/castcrew/dj_jaro2.jpg",
+      "nat": "sk",
+      "readmore": "1"
+    },
+    "links": {
+      "mapping": "tab1,3",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "link": "Tickets",
+              "url": "/tickets"
+            },
+            "2": {
+              "link": "Privacy policy",
+              "url": "/content/privacy"
+            },
+            "3": {
+              "link": "Disclaimer",
+              "url": "/content/disclaimer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "facility": {
+    "about-workshops": {
+      "bigpic": "images/content/workshop.png",
+      "bigpicalt": "workshops",
+      "title": "Workshops",
+      "subtitle": "Upgrade your skills! Don't have any? We can fix that.",
+      "par": "We have invited a wide variety of artists from all over Europe who will come down ready to jam. They have wicked skills all over the dance spectrum from Salsa to Kizomba to Hip Hop. They're also ready to cram some of those skills down your skillset. For more detailed information take a look at the workshop schedule when made available.",
+      "parb": "",
+      "adline": "Priezovska 18",
+      "city": "Bratislava",
+      "phone": "+420235845327",
+      "email": "info@bratislavasalsainternational.com",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    },
+    "about-shows": {
+      "bigpic": "https://placehold.it/400x400",
+      "bigpicalt": "Shows!",
+      "title": "Shows",
+      "subtitle": "The key is to have just enough of the right quality put together...",
+      "par": "As soon as we have done that, we will list that here.",
+      "parb": "",
+      "adline": "Prievozsk√° 18",
+      "city": "Bratislava",
+      "phone": "+420235845327",
+      "email": "info@bratislavasalsainternational.com",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    },
+    "about-parties": {
+      "bigpic": "/images/content/bsi-dancers.jpg",
+      "bigpicalt": "Unique party philpsophy",
+      "title": "Daytime socials",
+      "subtitle": "What is a daytime social?",
+      "par": "Did we mention that we won't stop the party? We won't. Really. The party continues. There's no afterparty. It just does not end :)",
+      "parb": "Everyone 'knows' that a Salsa Gala is in the night. So we will do exactly that. But when the day starts, we will simply transfer into another mood and make sure you can dance all day, should you want to. That's what we call a Daytime Social.",
+      "adline": "Prievozsk√° 18",
+      "city": "Bratislava",
+      "phone": "+420235845327",
+      "email": "info@bratislavasalsainternational.com",
+      "fb": "https://www.facebook.com",
+      "tw": ""
+    },
+    "la-fiesta": {
+      "bigpic": "/images/venue/area2_2.jpg",
+      "bigpicalt": "Latin club La Fiesta",
+      "title": "Latin club La Fiesta",
+      "subtitle": "",
+      "par": "",
+      "parb": "",
+      "adline": "Prievozsk√° 18",
+      "city": "Bratislava",
+      "phone": "+420235845327",
+      "email": "info@lafiesta.sk",
+      "fb": "https://www.facebook.com/lafiesta.sk",
+      "tw": ""
+    }
+  },
+  "tickets": {
+    "pagetitle": "Tickets",
+    "notickets-title": "You are a pioneer!",
+    "notickets": "Wow! Great that you want to buy a ticket! Tell us how to reach you and we will contact you as soon as we have them ready.",
+    "notickets-sent": "Registration success!",
+    "mapping": "tab1,7",
+    "tabs": {
+      "tab1": {
+        "events": {
+          "1": {
+            "id": "pass-single-party",
+            "img": "/images/content/bsi-ticket-white-sm.png",
+            "title": "Single Party",
+            "price": "15",
+            "desc": "Single person access to 1 party.",
+            "type": "1"
+          },
+          "2": {
+            "id": "pass-full-party",
+            "img": "/images/content/bsi-ticket-white-sm.png",
+            "title": "Full Party",
+            "price": "42",
+            "desc": "Single person access to all parties.",
+            "type": "1"
+          },
+          "3": {
+            "id": "pass-workshops",
+            "img": "/images/content/bsi-ticket-white-sm.png",
+            "title": "Workshops",
+            "price": "50",
+            "desc": "Single person access to all workshops.",
+            "type": "1"
+          },
+          "4": {
+            "id": "pass-fullpass",
+            "img": "/images/content/bsi-ticket-white-sm.png",
+            "title": "Full Pass",
+            "price": "90",
+            "desc": "Single person access to all workshops and parties.",
+            "type": "1"
+          },
+          "5": {
+            "id": "pass-silver",
+            "img": "/images/content/bsi-tickets-white.png",
+            "title": "Silver Pass",
+            "price": "140",
+            "desc": "Hotel + Single person access to all parties.",
+            "type": "2"
+          },
+          "6": {
+            "id": "pass-gold",
+            "img": "/images/content/bsi-tickets-white.png",
+            "title": "Gold pass",
+            "price": "150",
+            "desc": "Hotel + Single person access to all workshops.",
+            "type": "2"
+          },
+          "7": {
+            "img": "/images/content/bsi-tickets-white.png",
+            "title": "Platinum Pass",
+            "price": "200",
+            "desc": "Hotel + Single person access to all parties and workshops.",
+            "type": "2"
+          }
+        }
+      }
+    }
+  },
+  "schedule": {
+    "mapping": "tab1,3;tab2,11;tab3,8",
+    "title": "Congress schedule",
+    "readmorebtn": "read more",
+    "tabs": {
+      "tab1": {
+        "title": "DAY 1",
+        "date": "13 OCT 2017",
+        "events": {
+          "1": {
+            "ctkey": "1",
+            "ctid": "lf-registration",
+            "cttitle": "Registration at La Fiesta",
+            "ctsummary": "Get your access token at the registration desk",
+            "ctartist": "Tickets and registration",
+            "ctcompany": "La Fiesta",
+            "cttime": "18:00 - 02:00",
+            "ctlocation": "La Fiesta - Registration desk",
+            "ctthumb": "/images/venue/lobby_thumb.jpg",
+            "show": "1"
+          },
+          "2": {
+            "ctkey": "2",
+            "ctid": "friday-showtime",
+            "cttitle": "Friday Showtime",
+            "ctsummary": "Get a theatrical show warming up for the party",
+            "ctartist": "Showtime",
+            "ctcompany": "La Fiesta",
+            "cttime": "22:30 - 23:00",
+            "ctlocation": "La Fiesta - All Areas",
+            "ctthumb": "/images/venue/area1_thumb.jpg",
+            "show": "1"
+          },
+          "3": {
+            "ctkey": "3",
+            "ctid": "friday-party",
+            "cttitle": "Friday Gala",
+            "ctsummary": "This is not meant to be a warming up. The only thing that will be cold is if you don't show up. It's a ball, and we are going to be balling till the sun comes up.",
+            "ctartist": "Party",
+            "ctcompany": "La Fiesta",
+            "cttime": "23:00 - 07:00",
+            "ctlocation": "La Fiesta - All Areas",
+            "ctthumb": "/images/venue/area1_thumb.jpg",
+            "show": "1"
+          }
+        }
+      },
+      "tab2": {
+        "title": "DAY 2",
+        "date": "14 OCT 2017",
+        "events": {
+          "1": {
+            "ctid": "lf-registration",
+            "cttitle": "Registration at La Fiesta",
+            "ctsummary": "Register at the desk in La Fiesta, get your armband",
+            "ctartist": "Registration Desk",
+            "ctcompany": "La Fiesta",
+            "cttime": "10:00 - 02:00",
+            "ctlocation": "La Fiesta - Terrace",
+            "ctthumb": "images/venue/lobby_thumb.jpg",
+            "show": "1"
+          },
+          "2": {
+            "ctid": "terrace-lounge",
+            "cttitle": "Terrace Lounge",
+            "ctsummary": "Chill out or dance at the Terrace area. Bar open",
+            "ctartist": "Terrace",
+            "ctcompany": "La Fiesta",
+            "cttime": "12:00 - 22:00",
+            "ctlocation": "La Fiesta - Registration desk",
+            "ctthumb": "/images/venue/lobby_thumb.jpg",
+            "show": "1"
+          },
+          "3": {
+            "ctid": "workshop-on2-intermediate",
+            "cttitle": "Workshop intermediate on 2",
+            "ctsummary": "Dive right into the prime technicalities with Marlon Borkulo",
+            "ctartist": "Marlon Borkulo",
+            "ctcompany": "marsiesmambo.nl",
+            "cttime": "12:00 - 14:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "images/castcrew/marlon_borkulo_thumb.jpg",
+            "show": "0"
+          },
+          "4": {
+            "ctid": "workshop-cuban-osbanis",
+            "cttitle": "Workshop Cuban intermediate",
+            "ctsummary": "Aguaaa",
+            "ctartist": "Osbanis",
+            "ctcompany": "Director, Deakocan",
+            "cttime": "12:00 - 14:00",
+            "ctlocation": "La Fiesta - Area 2",
+            "ctthumb": "images/castcrew/osbanis_anneta_thumb.jpg",
+            "show": "0"
+          },
+          "5": {
+            "ctid": "workshop-kizomba-paul-and-eveline",
+            "cttitle": "Workshop Kizomba",
+            "ctsummary": "Liquify your dance skills in this workshop with Paul and Eveline",
+            "ctartist": "Paul and Eveline",
+            "ctcompany": "AfriSur",
+            "cttime": "14:00 - 15:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "images/castcrew/paul_eveline_thumb.jpg",
+            "show": "0"
+          },
+          "6": {
+            "ctid": "workshop-rueda",
+            "cttitle": "Workshop Rueda intermediate",
+            "ctsummary": "Enchufla",
+            "ctartist": "Artist",
+            "ctcompany": "Dance School",
+            "cttime": "14:00 - 15:00",
+            "ctlocation": "La Fiesta - Area 2",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "0"
+          },
+          "7": {
+            "ctid": "workshop-rueda",
+            "cttitle": "Workshop Rueda intermediate",
+            "ctsummary": "Enchufla",
+            "ctartist": "Artist",
+            "ctcompany": "Dance School",
+            "cttime": "16:00 - 18:00",
+            "ctlocation": "La Fiesta - Area 2",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "0"
+          },
+          "8": {
+            "ctid": "workshop-musicality",
+            "cttitle": "Workshop Musicality",
+            "ctsummary": "Lorem Ipsum dolor samet",
+            "ctartist": "Artist",
+            "ctcompany": "Dance School",
+            "cttime": "16:00 - 17:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "0"
+          },
+          "9": {
+            "ctid": "workshop",
+            "cttitle": "Workshops",
+            "ctsummary": "Full workshop schedule disclosed when available",
+            "ctartist": "All artists",
+            "ctcompany": "-",
+            "cttime": "12:00 - 18:00",
+            "ctlocation": "La Fiesta - Area 1,2,3",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "1"                          
+          },
+          "10": {
+            "ctid": "saturday-showtime",
+            "cttitle": "Saturday Showtime",
+            "ctsummary": "Get your theatrical show warming up for the party",
+            "ctartist": "Showtime",
+            "ctcompany": "La Fiesta",
+            "cttime": "22:30 - 23:00",
+            "ctlocation": "La Fiesta - All Areas",
+            "ctthumb": "/images/venue/area1_thumb.jpg",
+            "show": "1"
+          },
+          "11": {
+            "ctid": "saturday-gala",
+            "cttitle": "Saturdaynight Gala",
+            "ctsummary": "Prime time. This is the night to go wild. Make it count :)",
+            "ctartist": "La Fiesta",
+            "ctcompany": "La Fiesta",
+            "cttime": "23:00 - 07:00",
+            "ctlocation": "La Fiesta - All Areas",
+            "ctthumb": "images/venue/area1_thumb.jpg",
+            "show": "1"
+          }
+        }
+      },
+      "tab3": {
+        "title": "DAY3",
+        "date": "15 OCT 2017",
+        "events": {
+          "1": {
+            "ctkey": "1",
+            "ctid": "lf-registration",
+            "cttitle": "Registration at La Fiesta",
+            "ctsummary": "Register at the desk in La Fiesta, get your armband",
+            "ctartist": "Registration Desk",
+            "ctcompany": "La Fiesta",
+            "cttime": "10:00 - 02:00",
+            "ctlocation": "La Fiesta - Registration desk",
+            "ctthumb": "/images/venue/lobby_thumb.jpg",
+            "show": "1"
+          },
+          "2": {
+            "ctkey": "1",
+            "ctid": "terrace-lounge",
+            "cttitle": "Terrace Lounge",
+            "ctsummary": "Chill out or dance at the Terrace area. Bar open",
+            "ctartist": "Terrace",
+            "ctcompany": "La Fiesta",
+            "cttime": "12:00 - 22:00",
+            "ctlocation": "La Fiesta - Terrace",
+            "ctthumb": "/images/venue/lobby_thumb.jpg",
+            "show": "1"
+          },
+          "3": {
+            "ctid": "workshop-on-1",
+            "cttitle": "Advanced on 1",
+            "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+            "ctartist": "Artist",
+            "ctcompany": "Dance company",
+            "cttime": "12:00 - 13:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "0"
+          },
+          "4": {
+            "ctkey": "2",
+            "ctid": "workshop-cuban-osbanis",
+            "cttitle": "Workshop Cuban",
+            "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+            "ctartist": "Osbanis",
+            "ctcompany": "Director, Deakocan",
+            "cttime": "12:00 - 13:00",
+            "ctlocation": "La Fiesta - Area 2",
+            "ctthumb": "images/castcrew/osbanis_anneta_thumb.jpg",
+            "show": "0"
+          },
+          "5": {
+            "ctkey": "3",
+            "ctid": "workshop-kizomba-advanced",
+            "cttitle": "Workshop Kizomba",
+            "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+            "ctartist": "Artist",
+            "ctcompany": "Dance Company",
+            "cttime": "13:00 - 15:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "https://placehold.it/75x75"
+          },
+          "6": {
+            "ctid": "workshop",
+            "cttitle": "Workshop",
+            "ctsummary": "Lorem ipsum dolor sit amet, te eum graeco partiendo, ei qui iudico accusamus. ",
+            "ctartist": "Artist",
+            "ctcompany": "Dance company",
+            "cttime": "15:00 - 16:00",
+            "ctlocation": "La Fiesta - Area 1",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "0"
+          },
+          "7": {
+            "ctid": "worxkshop",
+            "cttitle": "Workshops",
+            "ctsummary": "Full workshop schedule disclosed when available",
+            "ctartist": "All Artists",
+            "ctcompany": "-",
+            "cttime": "12:00 - 16:00",
+            "ctlocation": "La Fiesta - Area 2",
+            "ctthumb": "https://placehold.it/75x75",
+            "show": "1"
+          },
+          "8": {
+            "ctid": "sunday-gala",
+            "cttitle": "Sundaynight Gala",
+            "ctsummary": "Rumba Rumbero! Didn't make the saturday? One more chance.",
+            "ctartist": "La Fiesta",
+            "ctcompany": "La Fiesta",
+            "cttime": "22:00 - 07:00",
+            "ctlocation": "La Fiesta - All Areas",
+            "ctthumb": "images/venue/area1_thumb.jpg",
+            "show": "1"
+          }
+        }
+
+      }
+    }
+  },
+  "cart": {
+    "title": "Your order",
+    "lblproduct": "product",
+    "lblprice": "Price",
+    "lblquantity": "Quantity",
+    "lbltotal": "Total",
+    "lblprodtitle": "Product Title",
+    "lblcp": "Promo code",
+    "lblcpc": "Promo code",
+    "lblcpdesc": "Enter your promo code here for discount.",
+    "lblacp": "Apply Promo code",
+    "lblcarttotal": "Cart Total",
+    "lblremove": "Remove this item",
+    "lblcartempty": "You have not ordered any items",
+    "lblordertotal": "Order total",
+    "billingdetails": "Billing details",
+    "paymentinfo": "Payment information",
+    "payment-b": "Direct bank transfer",
+    "payment-b-desc": "Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order wonít be shipped until the funds have cleared in our account.",
+    "payment-c": "Cheque Payment",
+    "payment-c-desc": "Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.",
+    "payment-p": "PayPal Payment",
+    "payment-p-desc": "Please use your Order ID as the payment reference. Your order wonít be shipped until the funds have cleared in our account.",
+    "placeorder": "Place order"
+  },
+  "disclaimer": {
+    "pagetitle": "Disclaimer",
+    "mapping": "tab1,3",
+    "tabs": {
+      "tab1": {
+        "events": {
+          "1": {
+            "section": "p-product",
+            "title": "Terms",
+            "p1": "By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this web site are protected by applicable copyright and trade mark law.",
+            "p2": "","img": ""
+          },
+          "2": {
+            "section": "p-product",
+            "title": "Disclaimer",
+            "p1": "The materials on Bratislava Salsa International's web site are provided \"as is\". Bratislava Salsa International makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, Bratislava Salsa International does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.",
+            "p2": "The materials appearing on Bratislava Salsa International's web site could include technical, typographical, or photographic errors. Bratislava Salsa International does not warrant that any of the materials on its web site are accurate, complete, or current. Bratislava Salsa International may make changes to the materials contained on its web site at any time without notice. Bratislava Salsa International does not, however, make any commitment to update the materials. ",
+            "img": ""
+          },
+          "3": {
+            "section": "p-examples",
+            "title": "Limitations",
+            "p1": "In no event shall Bratislava Salsa International or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on Bratislava Salsa International's Internet site, even if Bratislava Salsa International or a Bratislava Salsa International authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.",
+            "p2": "Bratislava Salsa International has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Bratislava Salsa International of the site. Use of any such linked web site is at the user's own risk.",
+            "img": ""
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+      "pagetitle": "Privacy policy",
+      "mapping": "tab1,2",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "section": "p-product",
+              "title": "Regarding personal data",
+              "p1": "Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.",
+              "p2": "LISTTBefore or at the time of collecting personal information, we will identify the purposes for which information is being collected.; We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us, unless we obtain the consent of the individual concerned or as required by law.; We will only retain personal information as long as necessary for the fulfillment of those purposes.; We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.; We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.; We will make readily available to customers information about our policies and practices relating to the management of personal information.",
+              "img": ""
+            },
+            "2": {
+              "section": "p-examples",
+              "title": "How secure is my data?",
+              "p1": "We are taking great care in protecting your data. Any data will be transferred via SSL connections in order to avoid manipulation by third parties.",
+              "p2": "",
+              "img": "/images/content/ssl.png"
+            }
+          }
+        }
+      }
+  },
+  "travelinfo": {
+    "pagetitle": "How to get there",
+    "by-car": {
+      "section": "section-car",
+      "title": "Car",
+      "summary": "How to get there by car",
+      "p1": "",
+      "p2": ""
+    },
+    "by-plane": {
+      "section": "section-plane",
+      "title": "Bus or taxi",
+      "summary": "Coming soon",
+      "p1": "Coming soon!",
+      "p2": ""
+    },
+    "where-to-stay": {
+      "section": "section-plane",
+      "title": "Where to stay",
+      "summary": "Hotels nearby",
+      "p1": "Below we have listed a few hotels nearby. All of the listed hotels are fair priced and within 15 minutes walking of the congress venue.",
+      "p2": " "
+    },
+    "mapping": "tab1,4",
+    "tabs": {
+      "tab1": {
+        "events": {
+          "1": {
+            "name": "Hotel Astra",
+            "address": "Prievozska 1318/14, 821 09 Bratislava",
+            "phone": "+421 2/582 381 11",
+            "website": "",
+            "wdist": "2 min walking",
+            "img": "/images/hotels/hotel_astra.jpg",
+            "desc": "Unfussy hotel offering laid-back rooms & apartments with free Wi-Fi, plus a Chinese restaurant."
+          },
+          "2": {
+            "name": "Hotel Aston",
+            "address": "Bajkalsk· 715/22, 821 09 Bratislava, Slovakia",
+            "phone": "+421 2/536 320 38",
+            "website": "http://hotelaston.sk",
+            "wdist": "10 min walking",
+            "img": "/images/hotels/hotel_aston.jpg",
+            "desc": "Modern rooms in a contemporary lodging offering a chic restaurant & a gym, plus 3 meeting rooms."
+          },
+          "3": {
+            "name": "Holiday Inn Bratislava",
+            "address": "Bajkalsk· 748/25A, 82503 Bratislava",
+            "phone": "+421 2/482 451 11",
+            "website": "http://ihg.com",
+            "wdist": "8 min walking",
+            "img": "/images/hotels/hotel_holiday-inn.jpg",
+            "desc": "Subdued rooms in a relaxed hotel with a restaurant, 2 bars, an indoor pool & a tennis court."
+          },
+          "4": {
+            "name": "Hotel Blue II",
+            "address": "Hontianska 1271/4, 821 09 Bratislava",
+            "phone": "+421 2/581 066 66",
+            "website": "http://hotelbluegarni.sk",
+            "wdist": "11 min walking",
+            "img": "/images/hotels/hotel_blue.jpg",
+            "desc": "Bright rooms in a laid-back, contemporary hotel with complimentary breakfast & Wi-Fi. "
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "pagetitle": "Contact",
+    "h1": "Get in touch",
+    "h2": "Find our location",
+    "office": "Bratislava Salsa International Office",
+    "address": "Prievozsk· 18, 821 09  Bratislava",
+    "country": "Slovakia",
+    "phone": "+420235845327",
+    "email": "info@bratislavasalsainternational.com",
+    "fb": "www.facebook.com",
+    "gp": "www.google.com",
+    "yt": "www.youtube.com"
+  },
+  "ambassadors": {
+    "pagetitle": "Ambassador program",
+    "h1": "Be an ambassador!",
+    "h2": "Why should you become ambassador?",
+    "h31": "Discount prices",
+    "h31t": "Get tickets at dicount prices!",
+    "h32": "Free access",
+    "h32t": "Earn free workshop or party access",
+    "h33": "No complications",
+    "h33t": "We just want you to be part of the revolution. :)",
+    "frm": "Register here",
+    "frmfb": "Facebook",
+    "frmpref": "Tell us a bit about your style",
+    "frmstyles": "Salsa,Cuban,Cha Cha Cha,Son Montuno,Mambo,Romantica,Bachata,Kizomba",
+    "frmintro": "We will email you the details of our ambassador program.",
+    "frmoutro": "Your data is safe with us. Read our privacy policy!",
+    "frmsubmit": "OK, I'm in!",
+    "frmsent": "Registration complete!"
+  },
+  "goodies": {
+    "mapping": "tab1,8",
+    "tabs": {
+      "tab1": {
+        "events": {
+          "1": {
+            "icon": "pe-7s-check",
+            "title": "Towels",
+            "desc": "Limited amount freely available",
+            "link": "#"
+          },
+          "2": {
+            "icon": "pe-7s-check",
+            "title": "Mints",
+            "desc": "Limited amount freely available",
+            "link": "#"
+          },
+          "3": {
+            "icon": "pe-7s-check",
+            "title": "Deodorant",
+            "desc": "Restrooms will be equipped with a few backup units of D.E.O. :)",
+            "link": "#"
+          },
+          "4": {
+            "icon": "pe-7s-check",
+            "title": "Smoking",
+            "desc": "Outside please. But we will provide cover for you.",
+            "link": "#"
+          },
+          "5": {
+            "icon": "pe-7s-check",
+            "title": "Photo Hotspot",
+            "desc": "Grow your fame. Take a picture",
+            "link": "#"
+          },
+          "6": {
+            "icon": "pe-7s-check",
+            "title": "Ticket Roulette",
+            "desc": "Every ticket automatically enters a lottery to win the ticket price back",
+            "link": "#"
+          },
+          "7": {
+            "icon": "pe-7s-check",
+            "title": "Raincheck",
+            "desc": "Got passes and can't make it? No problem. Next year you can still use it",
+            "link": "#"
+          },
+          "8": {
+            "icon": "pe-7s-check",
+            "title": "Taxi Call spot",
+            "desc": "Don't feel like walking back to the hotel? Go to the desk and have a taxi called",
+            "link": "#"
+          }
+        }
+      }
+    }
+  },
+    "survey": {
+      "pagetitle": "Rumberos today!",
+      "formtitle": "Tell us a bit about you",
+      "mapping": "tab1,4",
+      "tabs": {
+        "tab1": {
+          "events": {
+            "1": {
+              "q": "I go to a salsa congress for:",
+              "a": "LISTTWorkshops;Shows;Parties;Meeting friends"
+            },
+            "2": {
+              "q": "At salsa events I mostly dance:",
+              "a": "LISTTSalsa;Bachata;Kizomba;Something else"
+            },
+            "3": {
+              "q": "I have been active in the salsa scene for .. years:",
+              "a": "more than"
+            },
+            "4": {
+              "q": "Send me information about your products",
+              "a": ""
+            }
+          }
+        }
+      }
+  }
+}

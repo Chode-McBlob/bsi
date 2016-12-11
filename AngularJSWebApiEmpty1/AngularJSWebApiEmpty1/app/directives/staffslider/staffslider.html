@@ -1,0 +1,20 @@
+﻿        
+            <div class="ms-staff-carousel">
+                <!-- masterslider -->
+                <div class="master-slider" id="bsiStaff">
+                    <div class="ms-slide" ng-repeat="st in staff"  repeat-complete="checkLoaded($index)">
+                        <img src="{{st.photo}}" data-src="{{st.photo}}" alt="{{st.name}}"/>
+                        <div class="ms-info">
+                            <h3>{{st.name}}</h3>
+                            <h4>{{st.role}}</h4>
+                            <p>{{st.desc}}</p>
+                            <ul class="ms-socials" ng-show="st.fbhandle">
+                                <li class="ms-ico-fb"><a href="http://www.facebook.com/{{st.fbhandle}}">facebook.com/{{st.fbhandle}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of masterslider -->
+                <div class="ms-staff-info" id="staff-info"> </div>
+            </div>
+

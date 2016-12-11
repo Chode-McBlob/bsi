@@ -1,0 +1,195 @@
+﻿<section id="home" class="divider">
+    <div class="container-fluid p-0">
+        <master-slider></master-slider>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="sub-title font-28 text-gray-darkgray m-0 mt-0 mt-md-0" translate="home.about.subtitle">Overview</h3>
+                <h2 class="title font-48 text-gray mt-0" translate="home.about.title">About the congress</h2>
+            </div>
+            <div class="col-md-6 p-25 mb-20" translate="home.about.par1"></div>
+            <div class="col-md-6 p-25 mb-20" translate="home.about.par2"></div>
+            <div class="col-md-8 col-md-offset-2">
+                <img src="images/content/roadmap.png" class="img-responsive img-fullwidth"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<newsoverview></newsoverview>
+
+<eventschedule></eventschedule>
+ 
+<section>
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.0" custattr data-bg-img="/images/bg/bg-bsi-logo-black.png">
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0" translate="phrases.facgood">Facilities and goodies</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-sm-20">
+                <a href="/facility/about-workshops">
+                    <div class="about-icon bg-light">
+                        <i class="icon pe-7s-gym font-40"></i>
+                        <h4 class="title text-theme-colored">
+                            {{'facility.about-workshops.title' | translate}}
+                        </h4>
+                        <p>{{'facility.about-workshops.subtitle' | translate}}</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-sm-20">
+                <a href="/facility/about-parties">
+                    <div class="about-icon bg-light">
+                        <i class="icon pe-7s-gleam font-40"></i>
+                        <h4 class="title text-theme-colored">
+                            {{'facility.about-parties.title' | translate}}
+                        </h4>
+                        <p>{{'facility.about-parties.subtitle' | translate}}</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-sm-20">
+                <a href="/facility/about-shows">
+                    <div class="about-icon bg-light">
+                        <i class="icon pe-7s-star font-40"></i>
+                        <h4 class="title text-theme-colored">
+                            {{'facility.about-shows.title' | translate}}
+                        </h4>
+                        <p>{{'facility.about-shows.subtitle' | translate}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-50">
+            <div class="col-md-3 text-center" ng-repeat="tab in tabs">
+                <div class="icon-box icon-box-theme-colored">
+                    <a class="icon  text-theme-colored icon-border-effect" href="{{tab.link}}">
+                        <i class="{{tab.icon}}"></i>
+                    </a>
+                    <h6 class="icon-box-title">{{tab.title}}</h6>
+                    <p class="text-gray font-11">{{tab.desc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.0" custattr data-bg-img="/images/bg/bg-bsi-logo-black.png">
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0" translate="phrases.venue">Venue</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pb-50 parallax layer-overlay" data-stellar-background-ratio="0.0" custattr data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png">
+        <div class="section-content">
+            <div class="row multi-row-clearfix">
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+                    <div class="team-member clearfix">
+                        <div class="team-thumb"><img alt="Congress venue lobby" src="/images/venue/bsi_lobby.jpg" class="img-fullwidth"></div>
+                        <div class="overlay bg-dark-transparent-light">
+                            <div class="content text-center">
+                                <h4 class="author mb-0"><a href="/facility/la-fiesta">{{'home.lobby' | translate}}</a></h4>
+                                <h6 class="title text-white-f1 font-14 mt-5 mb-15">{{'home.registerhere' | translate}}</h6>
+                                <img src="/images/venue/bsi_lafiesta.png" alt="logo La Fiesta"/>
+                            </div>
+                        </div>
+                        <ul class="social-icons flat icon-white square mt-10">
+                            <li class=""><a href="https://www.facebook.com/lafiesta.sk/"><i class="fa fa-facebook pr-10 pl-10"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+                    <div class="team-member clearfix">
+                        <div class="team-thumb"><img alt="Congress venue area 1" src="/images/venue/bsi_area1.jpg" class="img-fullwidth"></div>
+                        <div class="overlay bg-dark-transparent-light">
+                            <div class="content text-center">
+                                <h4 class="author mb-0"><a href="page-speakers-details.html">{{'phrases.area1' | translate}}</a></h4>
+                                <h6 class="title text-white-f1 font-14 mt-5 mb-15">{{'phrases.room1' | translate}}</h6>
+                                <img src="/images/venue/bsi_lafiesta.png" alt="logo La Fiesta"/>
+                            </div>
+                        </div>
+                        <ul class="social-icons flat icon-white square mt-10">
+                            <li class=""><a href="https://www.facebook.com/lafiesta.sk/"><i class="fa fa-facebook pr-10 pl-10"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+                    <div class="team-member clearfix">
+                        <div class="team-thumb"><img alt="Congress venue area 2" src="/images/venue/bsi_area2.jpg" class="img-fullwidth"></div>
+                        <div class="overlay bg-dark-transparent-light">
+                            <div class="content text-center">
+                                <h4 class="author mb-0"><a href="facility/la-fiesta">{{'phrases.area2' | translate}}</a></h4>
+                                <h6 class="title text-white-f1 font-14 mt-5 mb-15">{{'phrases.room2' | translate}}</h6>
+                                <img src="/images/venue/bsi_lafiesta.png" alt="logo La Fiesta"/>
+                            </div>
+                        </div>
+                        <ul class="social-icons flat icon-white square mt-10">
+                            <li class=""><a href="https://www.facebook.com/lafiesta.sk/"><i class="fa fa-facebook pr-10 pl-10"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-30">
+                    <div class="team-member clearfix">
+                        <div class="team-thumb"><img alt="Congress venue area 3" src="/images/venue/bsi_area3.jpg" class="img-fullwidth"></div>
+                        <div class="overlay bg-dark-transparent-light">
+                            <div class="content text-center">
+                                <h4 class="author mb-0"><a href="/facility/la-fiesta">{{'phrases.area3' | translate}}</a></h4>
+                                <h6 class="title text-white-f1 font-14 mt-5 mb-15">{{'phrases.room3' | translate}}</h6>
+                                <img src="/images/venue/bsi_lafiesta.png"  alt="logo La Fiesta"/>
+                            </div>
+                        </div>
+                        <ul class="social-icons flat icon-white square mt-10">
+                            <li class=""><a href="https://www.facebook.com/lafiesta.sk/"><i class="fa fa-facebook pr-10 pl-10"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid p-0">
+        <!-- Google Map HTML Codes -->
+        <div data-address="Prievozská 18, 821 09  Bratislava Slovakia"
+             data-popupstring-id="#popupstring1"
+             class="map-canvas autoload-map bg-theme-colored"
+             data-mapstyle="style6"
+             data-height="450"
+             data-latlng=""
+             data-title="Bratislava Salsa International Venue"
+             data-zoom="15"
+             data-marker="images/map-icon-blue.png"
+             id="fff"
+             bsigmap>
+        </div>
+        <div class="map-popupstring hidden" id="popupstring1">
+            <div class="text-center">
+                <h3>La Fiesta Latin Club</h3>
+                <p>Prievozská 18, 821 09  Bratislava Slovakia</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<facilities></facilities>
+
+

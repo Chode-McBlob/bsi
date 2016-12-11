@@ -1,0 +1,59 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <!-- Section Content -->
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white-fa">{{article.headline}} </h2>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="divider parallax layer-overlay overlay-lightest" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+    <div class="container">
+        <div class="row multi-row-clearfix blog-posts blog-style1">
+            <div class="col-md-9">
+                <h3 class="sub-title text-gray-darkgray  m-0">{{article.title}}</h3>
+                <p>{{article.smry}}</p>
+                <div class="row mt-30 mb-20">
+                    <div class="col-md-7">
+                        <p class="mb-10">{{article.par}}</p>
+                        <blockquote>
+                            <p>{{article.parquote}}</p>
+                            <footer>{{article.parquoter}} <flag nts="{{article.nat}}"></flag> (<strong class="rev-uppercase">{{article.nat}}</strong>)</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="{{article.parthumb}}" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="{{article.parbthumb}}" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <p class="mb-10">{{article.parb}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="sidebar maxwidth400 mt-sm-30">
+                    <div class="widget">
+                        <h5 class="widget-title line-bottom">Links</h5>
+                        <div class="categories">
+                            <ul class="list ">
+                                <li ng-repeat="link in links">
+                                    <i class="fa fa-angle-double-right mr-10 text-theme-colored"></i><a href="{{link.url}}">{{link.link}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

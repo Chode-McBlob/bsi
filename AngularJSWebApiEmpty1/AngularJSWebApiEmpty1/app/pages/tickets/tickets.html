@@ -1,0 +1,106 @@
+﻿    <!-- Section: inner-header -->
+<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" custattr data-bg-img="/images/bg/bg-bsi-logo-black.png">
+    <div class="container pt-90 pb-20">
+        <!-- Section Content -->
+        <div class="section-content pt-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white-fa">{{'tickets.pagetitle' | translate}}</h2>
+                    <img src="/images/content/bsi-tickets-white.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tickets" class="divider parallax layer-overlay overlay-lighter" custattr data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png">
+
+    <div class="container pb-50">
+        <div class="section-content" ng-show="false">
+            <div class="text-center mb-25">
+                <h3 class="text-theme-colored">{{'tickets.notickets-title' | translate}}</h3>
+                <p class="text-black-333 font-16"> {{'tickets.notickets' | translate}}</p>
+            </div>
+            <form id="pioneer_form" name="frmPnr" class="register-form" novalidate valid-submit="sendForm()" ng-show="!formsent">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>{{'phrases.name' | translate}}</label>
+                            <input type="text" placeholder="{{'phrases.name' | translate}}" class="form-control" ng-model="frmuser.name" name="name">
+                        </div>
+                    </div>
+                    <div class="col-md-4"ng-class="{'has-error': frmPnr.$submitted && frmPnr.eml.$invalid}">
+                        <div class="form-group">
+                            <label>{{'phrases.email' | translate}} *</label>
+                            <input type="email" placeholder="{{'phrases.email' | translate}}" ng-model="frmuser.email" class="form-control" required name="eml" ng-focus>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>{{'ambassadors.frmfb' | translate}}</label>
+                            <input type="text" placeholder="{{'ambassadors.frmfb' | translate}}" class="form-control" ng-model="frmuser.fb" name="fb">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div vc-recaptcha theme="dark" key="recaptchakey" on-create="setWidgetId(widgetId)" on-success="setCaptchaResponse(response)"></div>
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 mt-20">
+                        <button type="submit" class="btn btn-colored btn-theme-colored btn-submit form-control " data-loading-text="{{'phrases.pleasewait' | translate}}">OK</button>
+                    </div>
+                </div>
+                <p class="alert alert-danger mt-20 text-center" ng-show="frmPnr.$submitted && frmPnr.$invalid">
+                    <i class="fa fa-exclamation-triangle mr-10"></i>{{'phrases.correctform' | translate}}
+                </p>
+            </form>
+            <div class="row" ng-show="formsent">
+                <div class="row text-center">
+                    <img src="/images/content/bsi-thumbsup.png" alt="bsi thumbs up!"/>
+                    <p class="text-black-222"><strong>{{'tickets.notickets-sent' | translate}}</strong></p>
+                </div>
+            </div>
+    </div>
+
+
+        <div class="section-content">
+            <div class="row equal-height-pricing-table">
+                <div class="col-xs-12 col-sm-6 col-md-3 mb-20" ng-repeat="pass in passes">
+                    <div class="pricing-table table-horizontal maxwidth400">
+                        <div class="row text-center">
+                            <img src="{{pass.img}}" />
+                            <h6 class="table-title text-theme-colored mt-20">{{ pass.title}}</h6>
+                            <div class="amount font-20 text-white"> &euro; {{pass.price}}</div>
+                        </div>
+                        <div class="row">
+                            <p class="text-white pt-20 pb-20">{{pass.desc}}</p>
+                        </div>
+                        <div class="row text-center">
+                            <button class="btn btn-theme-colored" ng-click="addToCart(pass)">{{ 'phrases.addtocart' | translate}}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-height-pricing-table">
+                <div class="col-xs-12 col-sm-12 col-md-4 mb-20" ng-repeat="pass in passes | filter:{type:2}">
+                    <div class="pricing-table table-horizontal maxwidth400">
+                        <div class="row text-center">
+                            <img src="{{pass.img}}" />
+                            <h6 class="table-title text-theme-colored mt-20">{{ pass.title}}</h6>
+                            <div class="amount font-20 text-white"> &euro; {{pass.price}}</div>
+                        </div>
+                        <div class="row">
+                            <p class="text-white pt-20 pb-20">{{pass.desc}}</p>
+                        </div>
+                        <div class="row text-center">
+                            <button class="btn btn-theme-colored" ng-click="addToCart(pass)">{{ 'phrases.addtocart' | translate}}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

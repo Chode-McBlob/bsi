@@ -1,0 +1,31 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white"> {{'cart.title' | translate}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+
+        <div class="col-md-12 text-center">
+            <div style="width:100%"><img src="/images/content/slot-machine.png" /></div>
+            <div id="sm">
+
+                <div class="group">
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                    <div class="reel"></div>
+                </div>
+                <button class="leverbutton" ng-click="Roll()" ng-disabled="stopgame">Start</button>
+                <p class="msg">{{result}}</p>
+                <p ng-show="hits > 0"> hits left: {{hits}}</p>
+            </div>
+
+        </div>
+    </div>
+</section>

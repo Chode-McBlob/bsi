@@ -1,0 +1,38 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <!-- Section Content -->
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white-fa">{{pagetitle}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="divider parallax layer-overlay overlay-lighter" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" data-stellar-background-ratio="0.5" custattr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-push-1">
+                <div class="list-group">
+                    <a ng-repeat="sect in pagect" href="#{{sect.section}}" class="list-group-item smooth-scroll-to-target">{{sect.title}}</a>
+                </div>
+            </div>
+            <div class="col-md-10 col-md-push-1">
+                <div ng-repeat="sect in pagect" id="{{sect.section}}" class="mb-50">
+                    <h3>{{sect.title}}</h3>
+                    <hr>
+                    <p class="mb-20">{{sect.p1}}</p>
+                    <p ng-show="!isArr(sect.p2)">{{sect.p2}}</p>
+                    <ul ng-show="isArr(sect.p2)" class="list theme-colored">
+                        <li ng-repeat="itm in sect.p2 track by $index">
+                            {{itm}}
+                        </li>
+                    </ul>
+                    <img ng-if="sect.img" ng-src="{{sect.img}}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

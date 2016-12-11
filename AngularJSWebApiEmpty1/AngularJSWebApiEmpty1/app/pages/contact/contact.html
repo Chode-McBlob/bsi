@@ -1,0 +1,58 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" custattr data-bg-img="/images/bg/bg-bsi-logo-black.png">
+    <div class="container pt-90 pb-30">
+        <!-- Section Content -->
+        <div class="section-content pt-50 pb-20">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white-fa">{{'contact.pagetitle'|translate}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Divider: Google map -->
+<section id="contact" class="divider parallax layer-overlay overlay-lighter" custattr data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png">
+    <div class="container pb-30">
+        <div class="row">
+            <div class="col-sm-7 col-md-6">
+                <h4 class="text-uppercase">{{'contact.h1'|translate}}</h4>
+                <div class="line-bottom mb-30"></div>
+                <ul class="list no-dot">
+                    <li><i class="fa fa-phone"></i> {{'contact.phone'|translate}}</li>
+                    <li><i class="fa fa-envelope"></i> {{'contact.email'|translate}}</li>
+                    <li><i class="fa fa-map-marker"></i> {{'contact.address'|translate}} {{'contact.country'|translate}}</li>
+                </ul>
+                <ul class="social-icons icon-blue small m-0 mt-30 mb-30">
+                    <li><a href="{{'contact.fb'|translate}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="{{'contact.gp'|translate}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="{{'contact.yt'|translate}}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h4 class="text-uppercase">{{'contact.h2' | translate}}</h4>
+                <div class="line-bottom mb-30"></div>
+                <!-- Google Map HTML Codes -->
+                <div data-address="Prievozská 18, 821 09  Bratislava Slovakia"
+                     data-popupstring-id="#popupstring1"
+                     class="map-canvas autoload-map bg-theme-colored"
+                     data-mapstyle="style8"
+                     data-height="280"
+                     data-latlng=""
+                     data-title="La Fiesta"
+                     data-zoom="15"
+                     data-marker="images/map-icon-blue.png"
+                     id="gmapcontact"
+                     bsigmap>
+                </div>
+                <div class="map-popupstring hidden" id="popupstring1">
+                    <div class="text-center">
+                        <h3>{{'contact.office'|translate}}</h3>
+                        <p>{{'contact.address'|translate}} {{'contact.country'|translate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

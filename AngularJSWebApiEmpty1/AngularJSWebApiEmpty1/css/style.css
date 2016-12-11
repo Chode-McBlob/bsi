@@ -1,0 +1,39 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+ul.bsi-tabs li a{
+    border-right: solid 1px #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#ff5722;
+    cursor:pointer;
+}
+
+ul.bsi-tabs li a:hover {
+    color:#ff5722;
+    cursor:pointer;
+}
+
+ul.bsi-tabs li a span{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+ul.bsi-tabs li.active {
+    background: #ff5722;
+}
+
+ul.bsi-tabs li.active a{
+    color:#fff;
+}

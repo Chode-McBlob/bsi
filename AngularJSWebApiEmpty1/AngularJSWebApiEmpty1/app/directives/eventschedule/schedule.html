@@ -1,0 +1,68 @@
+﻿<section id="schedule">
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.5" custattr data-bg-img="/images/bg/bg-bsi-logo-black.png">
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0" translate="schedule.title">Congress Schedule</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layer-overlay overlay-lightest parallax" custattr data-stellar-background-ratio="0.3" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png">
+        <div class="container pt-50 pb-50">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="schedule-tab">
+                            <ul class="nav nav-justified bsi-tabs">
+                                <li class="active"><a data-target="#tab1" data-toggle="tab"> {{'schedule.tabs.tab1.title' | translate}} <span>{{'schedule.tabs.tab1.date' | translate}}</span></a></li>
+                                <li class=""><a data-target="#tab2" data-toggle="tab"> {{'schedule.tabs.tab2.title' | translate}} <span>{{'schedule.tabs.tab2.date' | translate}}</span></a></li>
+                                <li class=""><a data-target="#tab3" data-toggle="tab"> {{'schedule.tabs.tab3.title' | translate}} <span>{{'schedule.tabs.tab3.date' | translate}}</span></a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane" ng-class="{'fade in active': $first}" id="{{tab.tabname}}" ng-repeat="tab in tabs">
+                                    <div class="cd-timeline cd-container">
+                                        <!-- cd-timeline-block -->
+                                        <div class="cd-timeline-block" ng-repeat="act in tab.acts | filter:{show:'1'}">
+
+                                            <div class="cd-timeline-img cd-movie"> <i class="fa fa-user"></i> </div>
+                                            <div class="cd-timeline-content">
+                                                <div class="row equal-height">
+                                                    <div class="col-sm-8 pr-0 sm-height-auto">
+                                                        <div class="cd-content-left p-15">
+                                                            <h5 class="timeline-title">{{act.cttitle}} <span class="toggle-content"><i class="fa fa-plus-square-o"></i></span></h5>
+                                                            <p>{{act.ctsummary}}</p>
+                                                            <div class="cd-speaker clearfix">
+                                                                <img width="70" class="pull-left flip img-circle mr-15" src="{{act.ctthumb}}" alt="">
+                                                                <h6 class="pt-0 mb-0">{{act.ctartist}}</h6><span class="font-12">{{act.ctcomp}}</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 pl-0 pl-sm-15 sm-height-auto">
+                                                        <div class="cd-content-right p-15">
+                                                            <ul class="cd-timeline-meta mt-sm-0">
+                                                                <li><i class="fa fa-clock-o"></i> {{act.cttime}}</li>
+                                                                <li><i class="fa fa-thumb-tack"></i> {{act.ctlocation}}</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,96 @@
+﻿<section>
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.5" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0">{{'home.newsoverview.title' | translate}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider bg-very-lightest-transparent layer-overlay parallax"  data-stellar-background-ratio="0.3" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+        <div class="container pb-50 pt-80">
+            <div class="section-content">
+                <div class="row multi-row-clearfix">
+                    <div class="blog-posts" ng-repeat="tab in tabs">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <article class="post clearfix maxwidth500" >
+                                <div class="col-md-12 col-lg-6 p-0">
+                                    <div class="entry-header">
+                                        <div class="post-thumb">
+                                            <img src="{{tab.thumb}}" alt="" class="img-responsive img-fullwidth">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 p-0">
+                                    <div class="entry-content p-30 pl-40">
+                                        <h5 class="entry-title pt-0"><a href="#">{{tab.title}}</a> <flag nts="{{tab.nat}}"></flag></h5>
+                                        <p>{{tab.summary}}</p>
+                                        <a ng-if="tab.readmore > 0"  class="text-theme-colored font-11 mt-10 mb-0 pull-right flip" href="/article/{{tab.id}}">{{ 'readmore' | translate }}<i class="fa fa-angle-double-right"></i></a>
+                                        <div class="clearfix"></div>
+                                        <div class="entry-date">
+                                            {{tab.articledate}}
+                                        </div>
+                                        <div class="author-thumb">
+                                            <img class="img-circle" src="{{tab.authorthumb}}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.5" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0">{{'home.djs.title' | translate}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider bg-very-lightest-transparent layer-overlay parallax" data-stellar-background-ratio="0.3" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+        <div class="container pb-50 pt-80">
+            <div class="section-content">
+                <div class="row multi-row-clearfix">
+                    <div class="blog-posts" ng-repeat="dj in djs">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <article class="post clearfix maxwidth500">
+                                <div class="col-md-12 col-lg-6 p-0">
+                                    <div class="entry-header">
+                                        <div class="post-thumb">
+                                            <img src="{{dj.thumb}}" alt="" class="img-responsive img-fullwidth">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6 p-0">
+                                    <div class="entry-content p-30 pl-40">
+                                        <h5 class="entry-title pt-0"><a href="#">{{dj.title}}</a> <flag nts="{{dj.nat}}"></flag></h5>
+                                        <p>{{dj.summary}}</p>
+                                        <a ng-if="dj.readmore > 0" class="text-theme-colored font-11 mt-10 mb-0 pull-right flip" href="/article/{{dj.id}}">{{ 'readmore' | translate }}<i class="fa fa-angle-double-right"></i></a>
+                                        <div class="clearfix"></div>
+                                        <div class="entry-date">
+                                            {{dj.articledate}}
+                                        </div>
+                                        <div class="author-thumb">
+                                            <img class="img-circle" src="{{dj.authorthumb}}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

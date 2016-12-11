@@ -1,0 +1,33 @@
+﻿<section>
+    <div class="divider parallax layer-overlay overlay-darkblue" data-stellar-background-ratio="0.5" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+        <div class="container pt-50 pb-50">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2 class="title text-white mb-0">{{'home.offer.title' | translate}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white-light">
+        <div class="container pb-80 pt-80">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4 mb-sm-20" ng-repeat="tab in tabs">
+                        <div class="event-facilities">
+                            <div class="thumb">
+                                <img class="img-fullwidth" src="{{tab.thumb}}" alt="image {{tab.title}}">
+                                <div class="overlay">
+                                    <h4 class="title">{{tab.title}}</h4>
+                                    <p>{{tab.summary}}</p>
+                                    <a class="btn btn-colored btn-theme-colored btn-sm" href="{{tab.id}}">{{'readmore' | translate}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

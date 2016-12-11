@@ -1,0 +1,96 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white"> {{'cart.title' | translate}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="divider parallax layer-overlay overlay-lightest" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+    <div class="container">
+        <div class="section-content">
+            <div class="row" ng-if="order.prods.length <= 0">
+                <div class="col-md-12 text-center">
+                    <div class="alert alert-warning">
+                        <h3><a href="/tickets" class="text-theme-colored"> <i class="fa fa-cart-arrow-down"></i> {{'cart.lblcartempty' | translate}}</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row" ng-if="order.prods.length > 0">
+                <div class="col-md-10 col-md-offset-1">
+                    <table class="table table-striped table-bordered tbl-shopping-cart">
+                        <thead>
+                            <tr custattr data-bg-color="#fff">
+                                <th colspan="3">{{'cart.lblproduct' | translate}}</th>
+                                <th>{{'cart.lblprice' | translate}}</th>
+                                <th>{{'cart.lblquantity' | translate}}</th>
+                                <th>{{'cart.lbltotal' | translate}}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="cart_item" ng-repeat="prod in order.prods"  custattr data-bg-color="#fff">
+                                <td class="product-remove prod"><a title="{{'cart.lblremove' | translate}}" class="remove" href="" ng-click="removeFromCart(prod)">×</a></td>
+                                <td class="product-thumbnail"><a href="#"><img alt="{{'cart.lblprodtitle' | translate}}" src="{{prod.img}}"></a></td>
+                                <td class="product-name">
+                                    <a href="#" class="font-20">{{prod.title}}</a>
+                                    <ul class="variation">
+                                        <li class="variation-size">{{prod.desc}}</li>
+                                    </ul>
+                                </td>
+                                <td class="product-price"><span class="amount">&euro; {{prod.price}}</span></td>
+                                <td class="product-quantity text-center">
+                                    <div class="quantity buttons_added">
+                                        <input type="number" size="4" class="input-text qty text" title="{{'cart.lblquantity' | translate}}" ng-model="prod.amount" min="1" step="1" ng-change="updateItem(prod)">
+                                    </div>
+                                </td>
+                                <td class="product-subtotal"><span class="amount">&euro; {{prod.total}}</span></td>
+                            </tr>
+                            <tr custattr data-bg-color="#fff">
+                                <td colspan="5" class="text-right"><strong>Products total:</strong></td>
+                                <td class="font-18 text-center"> &euro; {{prodstotal}}</td>
+                            </tr>
+                            <tr custattr data-bg-color="#fff">
+                                <td colspan="3">
+                                    <div class="coupon text-center">
+                                        <label for="cart-coupon" title="{{'cart.lblcpdesc' | translate}}">{{'cart.lblcp' | translate}}: </label>
+                                        <strong class="text-success p-10" ng-show="order.discount > 0">{{order.promocode}}</strong>
+                                        <input id="txtpromo" ng-model="order.promocode" type="text" placeholder="{{'cart.lblcpc' | translate}}" ng-show="order.discount == 0" class="text-theme-colored">
+                                        <button type="button" class="btn btn-theme-colored btn-xs m-10" ng-click="applyPromo()" ng-hide="order.discount > 0">{{'cart.lblacp' | translate}}</button>
+                                        <div ng-show="order.discount == 0">
+                                            <small>if you have a promo code, enter your code here.</small>
+                                        </div>
+                                        <div ng-show="order.discount > 0">
+                                            <small>compliments of {{ getPromo().name }}</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td colspan="2" class="text-center">
+                                    <span class="text-danger" ng-show="invalidpcode">
+                                        <i class="fa fa-exclamation mr-10"></i>
+                                        Invalid promo code!
+                                    </span>
+                                    <span ng-show="order.discount > 0">discount: {{order.discountperc}}%</span>
+                                </td>
+                                <td><span ng-show="order.discount > 0"> &euro; {{order.discount}} &#8211; </span></td>
+                            </tr>
+                            <tr custattr data-bg-color="#fff">
+                                <td colspan="5" class="text-right"><strong>{{'cart.lblcarttotal' | translate}}:</strong></td>
+                                <td class="font-18 text-center"> &euro; {{order.ordertotal}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <a class="btn btn-colored btn-theme-colored btn-xl btn-submit btn-block" href="/tickets"><span class="mr-20">&#10094;</span> Continue shopping</a>
+                </div>
+                <div class="col-md-5">
+                    <button class="btn btn-colored btn-theme-colored btn-xl btn-submit btn-block" ng-click="checkout()">Go to checkout <span class="ml-20">&#10095;</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,72 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <!-- Section Content -->
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white">{{article.title}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section: Speakers Details -->
+<section class="divider parallax layer-overlay overlay-lightest" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumb">
+                        <img src="{{article.bigpic}}" alt="{{article.bigpicalt}}">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="name font-28 text-gray mb-30 mt-0">{{article.subtitle}}</h3>
+                    <p>{{article.par}}</p>
+                    <p>{{article.parb}}</p>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col-md-12">
+                    <div class="Speaker-address">
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <div class="media border-bottom p-15 mb-20 bg-light">
+                                    <div class="media-body">
+                                        <ul class="list-inline font-30 p-15">
+                                            <li class="pl-15 pr-15"><a href="{{article.fb}}" target="_blank"><i class="fa fa-facebook text-theme-colored"></i></a></li>
+                                            <li class="pl-15 pr-15"><a href="{{article.tw}}" target="_blank"><i class="fa fa-twitter text-theme-colored"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="media border-bottom p-15 mb-20 bg-light">
+                                    <div class="media-left">
+                                        <i class="fa fa-map-marker text-theme-colored font-24 mt-5"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-0">{{'phrases.address' | translate}}:</h5>
+                                        <p>{{article.adline}},<br>{{article.city}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="media border-bottom p-15 bg-light">
+                                    <div class="media-left">
+                                        <i class="fa fa-phone text-theme-colored font-24 mt-5"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-0">{{'phrases.contact' | translate}}:</h5>
+                                        <p><span>{{'phrases.phone' | translate}}:</span> {{article.phone}}<br><span>{{'phrases.email' | translate}}:</span> {{article.email}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

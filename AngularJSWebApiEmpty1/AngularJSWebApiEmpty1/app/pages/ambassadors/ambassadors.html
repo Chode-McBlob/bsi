@@ -1,0 +1,150 @@
+﻿    <section id="home" class="divider layer-overlay overlay-theme-colored" custattr data-bg-img="/images/bg/bg-brand-ambassador.png">
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="container pt-150 pb-150">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center pt-100 pb-100">
+                                <h1 class="text-theme-colored font-28 letter-space-1 mb-0">{{'ambassadors.pagetitle' | translate}}</h1>
+                                <h2 class="text-white font-64 m-0">{{'ambassadors.h1' | translate}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Call to action -->
+    <section class="divider parallax layer-overlay overlay-deep" custattr data-bg-img="/images/bg/bg-bsi-logo-dark.png">
+        <div class="container">
+            <div class="section-title mb-30">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="font-playfair text-black-light font-36 mt-0">{{'ambassadors.h2' | translate}}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center p-30 p-sm-15 pb-0">
+                        <a class="font-48" href="#"><i class="pe-7s-car"></i></a>
+                        <h3 class="text-theme-colored mt-0">{{'ambassadors.h31' | translate}}</h3>
+                        <p>{{'ambassadors.h31t' | translate}}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-30 p-sm-15 pb-0">
+                        <a class="font-48" href="#"><i class="pe-7s-umbrella"></i></a>
+                        <h3 class="text-theme-colored mt-0">{{'ambassadors.h32' | translate}}</h3>
+                        <p>{{'ambassadors.h32t' | translate}}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-30 p-sm-15 pb-0">
+                        <a class="font-48" href="#"><i class="pe-7s-diamond"></i></a>
+                        <h3 class="text-theme-colored mt-0">{{'ambassadors.h33' | translate}}</h3>
+                        <p>{{'ambassadors.h33t' | translate}}</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="call-to-action pt-40 pb-40 mb-20 border-1px bg-lighter" ng-show="formsent">
+                    <div class="col-md-12">
+                        <div class="icon-box icon-rounded-bordered left media mb-0">
+                            <a class="media-left pull-left" href="#"> <i class="pe-7s-info text-theme-colored p-20"></i></a>
+                            <div class="media-body">
+                                <h4 class="media-heading heading">{{'ambassadors.frmsent' | translate}}</h4>
+                                <p>{{'ambassadors.frmintro' | translate}}</p>
+                                <p class="text-gray-dimgray pt-20">
+                                    <a href="/content/privacy">{{'ambassadors.frmoutro' | translate}}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12" ng-show="!formsent">
+                    <form id="register_form" name="frmAmb" class="register-form p-50 pb-80 pt-0 mb-0" novalidate valid-submit="sendForm()">
+                        <h2 class="title text-theme-colored text-center mb-10">{{'ambassadors.frm' | translate}}</h2>
+                        <p class="text-theme-colored mb-30 text-center">
+                            <i class="fa fa-exclamation-circle mr-10"></i>{{'ambassadors.frmintro' | translate}}
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-12" ng-class="{'has-error': frmAmb.$submitted && frmAmb.fullname.$invalid}">
+                                <label>{{'phrases.fname' | translate}} + {{'phrases.lname' | translate}} *</label>
+                                <div class="form-group mb-30">
+                                    <input type="text" placeholder="{{'phrases.fname' | translate}} + {{'phrases.lname' | translate}}" ng-model="frmuser.name" required class="form-control" name="fullname" maxlength="100">
+                                </div>
+                            </div>
+                            <div class="col-sm-6" ng-class="{'has-error': frmAmb.$submitted && frmAmb.eml.$invalid}">
+                                <div class="form-group mb-30">
+                                    <label>{{'phrases.email' | translate}} *</label>
+                                    <input type="email" placeholder="{{'phrases.email' | translate}}" ng-model="frmuser.email" class="form-control" required name="eml" ng-focus maxlength="100">
+                                </div>
+                            </div>
+                            <div class="col-sm-6" ng-class="{'has-error': frmAmb.$submitted && frmAmb.fb.$invalid}">
+                                <div class="form-group mb-30">
+                                    <label>{{'ambassadors.frmfb' | translate}} *</label>
+                                    <input type="text" placeholder="{{'ambassadors.frmfb' | translate}}" class="form-control" required ng-model="frmuser.fb" name="fb" maxlength="150">
+                                </div>
+                            </div>
+                            <div class="col-sm-6" ng-class="{'has-error': frmAmb.$submitted && frmAmb.city.$invalid}">
+                                <div class="form-group mb-30">
+                                    <label>{{'phrases.city' | translate}} *</label>
+                                    <input type="text" placeholder="{{'phrases.city' | translate}}" class="form-control" required ng-model="frmuser.city" name="city" maxlength="100">
+                                </div>
+                            </div>
+                            <div class="col-sm-6" ng-class="{'has-error': frmAmb.$submitted && frmAmb.country.$invalid}">
+                                <div class="form-group mb-30">
+                                    <label>{{'phrases.country' | translate}} * </label>
+                                    <div class="styled-select">
+                                        <select class="form-control" name="country" required 
+                                                ng-model="frmuser.country" 
+                                                ng-options="k as v for (k,v) in countries">
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="form-group mb-30">
+                                    <label>{{'ambassadors.frmpref' | translate}}</label>
+                                    <div class="checkbox">
+                                        <label class="checkbox-inline p-20" ng-repeat="pref in prefs">
+                                            <input type="checkbox" name="frmprefs" 
+                                                   value="{{pref}}" 
+                                                   ng-checked="frmuser.prefs.indexOf(pref) > -1"
+                                                   ng-click="togglePrefs(pref)"
+                                                   >
+                                            {{pref}}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div vc-recaptcha theme="dark" key="recaptchakey" on-create="setWidgetId(widgetId)" on-success="setCaptchaResponse(response)"></div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group mb-0 mt-10 text-center">
+                                    <button type="submit" class="btn btn-colored btn-theme-colored btn-xl btn-submit btn-block" data-loading-text="{{'phrases.pleasewait' | translate}}">{{'ambassadors.frmsent' | translate}}</button>
+                                </div>
+                                <p class="alert alert-danger mt-20 text-center" ng-show="frmAmb.$submitted && frmAmb.$invalid">
+                                    <i class="fa fa-exclamation-triangle mr-10"></i>{{'phrases.correctform' | translate}}
+                                </p>
+                                <p class="text-gray-dimgray mt-20 text-center">
+                                    <a href="/content/privacy" target="_blank"><i class="fa fa-exclamation-circle mr-10"></i>{{'ambassadors.frmoutro' | translate}}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+

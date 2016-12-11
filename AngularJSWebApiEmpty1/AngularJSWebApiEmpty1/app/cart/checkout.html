@@ -1,0 +1,158 @@
+﻿<section class="inner-header divider parallax layer-overlay overlay-theme-colored-deep" data-bg-img="/images/bg/bg-bsi-logo-black.png" custattr>
+    <div class="container pt-90 pb-30">
+        <div class="section-content pt-50 pb-50">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-white">{{'phrases.checkout' | translate}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="divider parallax layer-overlay overlay-lightest" data-bg-img="/images/bg/bg-bsi-logo-dark-wm.png" custattr>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <form id="checkout-form" novalidate valid-submit="sendForm()" name="frmOrder">
+                    <div class="col-md-12">
+                        <div class="billing-details">
+                            <h3 class="mb-30">{{'cart.billingdetails' | translate}}</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>&nbsp;</label>
+                                        <div class="radio">
+                                            <label class="radio-inline">
+                                                <input id="inlineRadio3" type="radio" value="M" name="inlineRadioOptions" ng-model="order.gender">
+                                                {{'phrases.mr' | translate}}
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input id="inlineRadio3" type="radio" value="F" name="inlineRadioOptions" ng-model="order.gender">
+                                                {{'phrases.ms' | translate}}
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.fname.$invalid}">
+                                        <label for="checkuot-form-fname">{{'phrases.fname' | translate}} *</label>
+                                        <input type="text" class="form-control" placeholder="{{'phrases.fname' | translate}}" name="fname" required ng-model="order.fname">
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.lname.$invalid}">
+                                        <label for="checkuot-form-lname">{{'phrases.lname' | translate}} *</label>
+                                        <input id="checkuot-form-lname" type="text" class="form-control" placeholder="{{'phrases.lname' | translate}}" name="lname" required ng-model="order.lname">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.phone.$invalid}">
+                                        <label for="checkuot-form-cname">{{'phrases.phone' | translate}} *</label>
+                                        <input id="checkuot-form-cname" type="text" class="form-control" placeholder="{{'phrases.phone' | translate}}" name="phone" required ng-model="order.phone">
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.email.$invalid}">
+                                        <label for="checkuot-form-email">{{'phrases.email' | translate}} *</label>
+                                        <input id="checkuot-form-email" type="email" class="form-control" placeholder="{{'phrases.email' | translate}}" name="eml" required ng-model="order.eml">
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.address.$invalid}">
+                                        <label for="checkuot-form-address">{{'phrases.address' | translate}} *</label>
+                                        <input id="checkuot-form-address" type="text" class="form-control" placeholder="{{'phrases.address' | translate}}" name="address" required ng-model="order.address">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.zip.$invalid}">
+                                        <label for="checkuot-form-zip">{{'phrases.zip' | translate}} *</label>
+                                        <input id="checkuot-form-zip" type="text" class="form-control" placeholder="{{'phrases.zip' | translate}}" name="zip" required ng-model="order.zip">
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.city.$invalid}">
+                                        <label for="checkuot-form-city">{{'phrases.city' | translate}} *</label>
+                                        <input id="checkuot-form-city" type="text" class="form-control" placeholder="{{'phrases.city' | translate}}" name="city" required ng-model="order.city">
+                                    </div>
+                                    <div class="form-group" ng-class="{'has-error': frmOrder.$submitted && frmOrder.country.$invalid}">
+                                        <label>{{'phrases.country' | translate}} *</label>
+                                        <select class="form-control" required 
+                                                ng-model="order.country" 
+                                                ng-options="k as v for (k,v) in countries">
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="text-gray-dimgray mt-10">
+                                        <a href="/content/privacy" target="_blank"><i class="fa fa-exclamation-circle mr-10"></i>{{'ambassadors.frmoutro' | translate}}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <h3>{{'cart.title' | translate}}</h3>
+                        <table class="table table-striped table-bordered tbl-shopping-cart">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">{{'cart.lblproduct' | translate}}</th>
+                                    <th>{{'cart.lblquantity' | translate}}</th>
+                                    <th>{{'cart.lbltotal' | translate}}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="prod in order.prods">
+                                    <td class="product-thumbnail"><img alt="{{prod.title}}" src="{{prod.img}}"></td>
+                                    <td>{{prod.title}}</td>
+                                    <td>{{prod.amount}}</td>
+                                    <td><span class="amount">&euro; {{prod.total}}</span></td>
+                                </tr>
+                                <tr ng-show="order.discount > 0">
+                                    <td colspan="3" class="text-center">
+                                        <span class="p-10">{{'cart.lblcp' | translate}}: </span>
+                                        <span class="p-10">{{order.promocode}}</span>
+                                        <span class="p-10">discount: {{order.discountperc}}%</span>
+                                    </td>
+                                    <td><span ng-show="order.discount > 0"> &euro; {{order.discount}} - </span></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="text-right">{{'cart.lblordertotal' | translate}}</td>
+                                    <td>&euro; {{order.ordertotal}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-12" ng-hide="true">
+                        <h3>{{'cart.paymentinfo' | translate}}</h3>
+                        <div class="payment-method" ng-class="{'has-error': frmOrder.$submitted && frmOrder.pmt.$invalid}">
+                            <div class="radio">
+                                <label class="control-label">
+                                    <input type="radio" name="pmt" value="BANK" id="optA" ng-model="order.payment">
+                                    {{'cart.payment-b' | translate}}
+                                </label>
+                                <p>{{'cart.payment-b-desc' | translate}}</p>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pmt" value="CASH" id="optB" ng-model="order.payment">
+                                    {{'cart.payment-c' | translate}}
+                                </label>
+                                <p>{{'cart.payment-c-desc' | translate}}</p>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pmt" value="PAYP" id="optC" ng-model="order.payment">
+                                    {{'cart.payment-p' | translate}}
+                                </label>
+                                <p>{{'cart.payment-p-desc' | translate}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 alert alert-warning text-center">
+                       <i class="fa fa-2x fa-info-circle mr-10"></i> {{'cart.payment-summary' | translate}} {{order.eml}}
+                    </div>
+                        <div class="col-md-12 pt-20">
+                            <button type="submit" class="btn btn-colored btn-theme-colored btn-xl btn-submit btn-block">{{'cart.placeorder' | translate}}</button>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="alert alert-danger mt-20 text-center" ng-show="frmOrder.$submitted && frmOrder.$invalid">
+                                <i class="fa fa-exclamation-triangle mr-10"></i>{{'phrases.correctform' | translate}}
+                            </p>
+                        </div>
+</form>
+            </div>
+        </div>
+    </div>
+</section>
